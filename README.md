@@ -33,8 +33,11 @@ This is a sanitised copy of the supplied assignment folder, not a claim that the
 - Removed automatic face-photo seeding on the language-selection route.
 - Included database **structure only**, without customer, account, contact, PIN or face-image records.
 - Replaced the connection string with a local example.
+- Retained the original 180 translation resources. They were restored in a follow-up packaging commit; their content is unchanged.
 - Omitted submission slides, briefs, reports, video and wireframes because they contain unrelated submission/personal material.
 - Preserved supplied third-party source/license notices. The OCBC mark remains solely as part of the historical student prototype; it does not indicate endorsement.
+
+Third-party license texts are under `docs/licenses/`: tracking.js versions 1.0.0/1.1.3 use the BSD license, and guessLanguage.js carries the LGPL 3.0-or-later notice reproduced in its source. The GNU GPL text accompanies the LGPL text. These files do not assign a new license to the team's assignment code or to the OCBC mark.
 
 `docs/source-manifest.json` records original and archive source hashes. This publication cleanup is distinct from the original academic implementation.
 

@@ -513,5 +513,905 @@
     "path": "PFD_Assignment/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
     "original_sha256": "788b4b14ec9f43877f386cc49c67218b664c545f048468334b493b7d238f89f4",
     "archive_sha256": "788b4b14ec9f43877f386cc49c67218b664c545f048468334b493b7d238f89f4"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountBalance.en-US.resx",
+    "original_sha256": "82edd5ec52bc82e7d27f057ba7982f1106c4cfa3d9141d5333aa470f21247756",
+    "archive_sha256": "82edd5ec52bc82e7d27f057ba7982f1106c4cfa3d9141d5333aa470f21247756"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountBalance.es-ES.resx",
+    "original_sha256": "a26db591f84a01c556cf91aee595699c3aab8073966877e330b84fe0c27bb04f",
+    "archive_sha256": "a26db591f84a01c556cf91aee595699c3aab8073966877e330b84fe0c27bb04f"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountBalance.fr-FR.resx",
+    "original_sha256": "699504b3da65a0da1eea309171bcb2f939cfef1fce4a5e9d01a76d626bc84624",
+    "archive_sha256": "699504b3da65a0da1eea309171bcb2f939cfef1fce4a5e9d01a76d626bc84624"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountBalance.ja-JP.resx",
+    "original_sha256": "53cc5c684fcd5b2fd0c06edc4d498729804bb76ad52d1e12204f14171b992b6c",
+    "archive_sha256": "53cc5c684fcd5b2fd0c06edc4d498729804bb76ad52d1e12204f14171b992b6c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountBalance.ko-KR.resx",
+    "original_sha256": "a99c0d78de2994a0528c7b2ddc7af4a5a5e31b6c7cfba56d0593cea48dc781c1",
+    "archive_sha256": "a99c0d78de2994a0528c7b2ddc7af4a5a5e31b6c7cfba56d0593cea48dc781c1"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountBalance.ms-MY.resx",
+    "original_sha256": "121b702f412c9a2c7f9801fae2ad4e937bba880237297f588b376a86a61e4566",
+    "archive_sha256": "121b702f412c9a2c7f9801fae2ad4e937bba880237297f588b376a86a61e4566"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountBalance.ta-IN.resx",
+    "original_sha256": "9719c755425fb044e16b98ecb2cc7c3a5c886720129626ea94a62a0ec1468f0b",
+    "archive_sha256": "9719c755425fb044e16b98ecb2cc7c3a5c886720129626ea94a62a0ec1468f0b"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountBalance.th-TH.resx",
+    "original_sha256": "da2eda927eeae1802302ac3351f2fad44bb24430c54bc533def88b9ff8c29c8a",
+    "archive_sha256": "da2eda927eeae1802302ac3351f2fad44bb24430c54bc533def88b9ff8c29c8a"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountBalance.vi-VN.resx",
+    "original_sha256": "d7317bfd6a5a6c4e66ebfedc8d376967d4406fd006d915d6ce34ebdcfb18196a",
+    "archive_sha256": "d7317bfd6a5a6c4e66ebfedc8d376967d4406fd006d915d6ce34ebdcfb18196a"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountBalance.zh-CN.resx",
+    "original_sha256": "8532aa90685c6627901868a236c126eb5ac0c58b3c830f599f0d834de2d8c2ab",
+    "archive_sha256": "8532aa90685c6627901868a236c126eb5ac0c58b3c830f599f0d834de2d8c2ab"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountServices1.en-US.resx",
+    "original_sha256": "270f113c8ff09876e3a6f5a5c9187fd4cfb60ca97a8f43b0da3345c37970b885",
+    "archive_sha256": "270f113c8ff09876e3a6f5a5c9187fd4cfb60ca97a8f43b0da3345c37970b885"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountServices1.es-ES.resx",
+    "original_sha256": "d765be7b54ad1381c8f123c0dc2bd71809a1ed32830bc213a61e2710349b4404",
+    "archive_sha256": "d765be7b54ad1381c8f123c0dc2bd71809a1ed32830bc213a61e2710349b4404"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountServices1.fr-FR.resx",
+    "original_sha256": "88873271a0d8fe41aced719a0fa870e842ab1611999f98e832070d538178b092",
+    "archive_sha256": "88873271a0d8fe41aced719a0fa870e842ab1611999f98e832070d538178b092"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountServices1.ja-JP.resx",
+    "original_sha256": "74fc0232f3c56c0783f272f7df83060fb798c039e982a5c5cb6857c8dca3a7af",
+    "archive_sha256": "74fc0232f3c56c0783f272f7df83060fb798c039e982a5c5cb6857c8dca3a7af"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountServices1.ko-KR.resx",
+    "original_sha256": "c01c0f3917556c9b58c3291b786e2959bc20d8bbda96838961b3f0d40866d950",
+    "archive_sha256": "c01c0f3917556c9b58c3291b786e2959bc20d8bbda96838961b3f0d40866d950"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountServices1.ms-MY.resx",
+    "original_sha256": "b4e9778987d7d43e8b93164987d77ad3eac75bd75474711c152d39b7cfa90b55",
+    "archive_sha256": "b4e9778987d7d43e8b93164987d77ad3eac75bd75474711c152d39b7cfa90b55"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountServices1.ta-IN.resx",
+    "original_sha256": "dd8e9c4fce079f73b7daab8c3a0977f09b907669358c4bc63d876c3f2d471061",
+    "archive_sha256": "dd8e9c4fce079f73b7daab8c3a0977f09b907669358c4bc63d876c3f2d471061"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountServices1.th-TH.resx",
+    "original_sha256": "f20bb46ce02a61e3f2d01b4a5e0fcf0610ea1ed67c720335f0f677c66bcd9946",
+    "archive_sha256": "f20bb46ce02a61e3f2d01b4a5e0fcf0610ea1ed67c720335f0f677c66bcd9946"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountServices1.vi-VN.resx",
+    "original_sha256": "6a0f32b3a7a21b3a2414df887a263e18edfa6b092ced4b46e0284b361bed619c",
+    "archive_sha256": "6a0f32b3a7a21b3a2414df887a263e18edfa6b092ced4b46e0284b361bed619c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AccountServices1.zh-CN.resx",
+    "original_sha256": "21d23cd001d24ad4ba1e96284a770b00a2a36e24757d6577bd9d6aa9b3eddb43",
+    "archive_sha256": "21d23cd001d24ad4ba1e96284a770b00a2a36e24757d6577bd9d6aa9b3eddb43"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AmountWithdraw.en-US.resx",
+    "original_sha256": "e2be48bb4a1fd2e43cca8732db6f046e8b3e39157cd8356be82f29ff60981196",
+    "archive_sha256": "e2be48bb4a1fd2e43cca8732db6f046e8b3e39157cd8356be82f29ff60981196"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AmountWithdraw.es-ES.resx",
+    "original_sha256": "2744cd638cbaa546a3df4adaaaeaa786511c9a125f02cfe6f96a6a7c2c3860af",
+    "archive_sha256": "2744cd638cbaa546a3df4adaaaeaa786511c9a125f02cfe6f96a6a7c2c3860af"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AmountWithdraw.fr-FR.resx",
+    "original_sha256": "f84a9c649711840b3168f05358dec6c5d5a971be0e2b06bcd952a35ff6809eed",
+    "archive_sha256": "f84a9c649711840b3168f05358dec6c5d5a971be0e2b06bcd952a35ff6809eed"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AmountWithdraw.ja-JP.resx",
+    "original_sha256": "322f06206ca2cb74ecc9c3bde2068a25cdd046c3ed74f6dbdf18225b14bcb62a",
+    "archive_sha256": "322f06206ca2cb74ecc9c3bde2068a25cdd046c3ed74f6dbdf18225b14bcb62a"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AmountWithdraw.ko-KR.resx",
+    "original_sha256": "59b7c2354770dbc4a36e37eec4f58ed08031e6c06c1e3b18bba0806c6372b0a3",
+    "archive_sha256": "59b7c2354770dbc4a36e37eec4f58ed08031e6c06c1e3b18bba0806c6372b0a3"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AmountWithdraw.ms-MY.resx",
+    "original_sha256": "d3e9deb78ffe7b83c387dac15858883c70423d6ecca7a4f2d4e32c9d2704ac9e",
+    "archive_sha256": "d3e9deb78ffe7b83c387dac15858883c70423d6ecca7a4f2d4e32c9d2704ac9e"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AmountWithdraw.ta-IN.resx",
+    "original_sha256": "e84509396ddfbed49e5110d25ac3f25ecfab95ca11a0b06d478facf7353156cf",
+    "archive_sha256": "e84509396ddfbed49e5110d25ac3f25ecfab95ca11a0b06d478facf7353156cf"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AmountWithdraw.th-TH.resx",
+    "original_sha256": "95288f01a09d9b26b7e0194fc5a9c7c83f5a04354e2343194c11854c035f3079",
+    "archive_sha256": "95288f01a09d9b26b7e0194fc5a9c7c83f5a04354e2343194c11854c035f3079"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AmountWithdraw.vi-VN.resx",
+    "original_sha256": "777dbdd6968ac16b2b7d70185eab55d6dcc72b8c76917aabb7f1ee122a9d42c4",
+    "archive_sha256": "777dbdd6968ac16b2b7d70185eab55d6dcc72b8c76917aabb7f1ee122a9d42c4"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.AmountWithdraw.zh-CN.resx",
+    "original_sha256": "f12c98799a9f0ba0bdcc9e1144055774f2e2d57e9f02fa42f7bf06197a7b9348",
+    "archive_sha256": "f12c98799a9f0ba0bdcc9e1144055774f2e2d57e9f02fa42f7bf06197a7b9348"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.CardServices1.en-US.resx",
+    "original_sha256": "9ffaa2a1d624b5bdbe0fa0f5c78d43374bab0f1ad47b6652570fddaf99c35bb2",
+    "archive_sha256": "9ffaa2a1d624b5bdbe0fa0f5c78d43374bab0f1ad47b6652570fddaf99c35bb2"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.CardServices1.es-ES.resx",
+    "original_sha256": "7a4d4f81c6050b5c46ae60d51961a602726b55d609924bb9c6de5a0264ea657c",
+    "archive_sha256": "7a4d4f81c6050b5c46ae60d51961a602726b55d609924bb9c6de5a0264ea657c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.CardServices1.fr-FR.resx",
+    "original_sha256": "e33509118e32fd0bca3ea9ff051948917ee97bb6cb32b71f96787b2a4cd5f34b",
+    "archive_sha256": "e33509118e32fd0bca3ea9ff051948917ee97bb6cb32b71f96787b2a4cd5f34b"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.CardServices1.ja-JP.resx",
+    "original_sha256": "63b7598b2974cb56c22d894b3226ba7dfa2c98ecccd3ea092da60b5a6007d906",
+    "archive_sha256": "63b7598b2974cb56c22d894b3226ba7dfa2c98ecccd3ea092da60b5a6007d906"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.CardServices1.ko-KR.resx",
+    "original_sha256": "abe4b875448962cb893653b4767860de77e9a54fdea7dd410d4638e912b1a038",
+    "archive_sha256": "abe4b875448962cb893653b4767860de77e9a54fdea7dd410d4638e912b1a038"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.CardServices1.ms-MY.resx",
+    "original_sha256": "db3512df54bcbf6e773c1f08b9e2289c6344a5e0e9abd1747c182ea0ef060448",
+    "archive_sha256": "db3512df54bcbf6e773c1f08b9e2289c6344a5e0e9abd1747c182ea0ef060448"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.CardServices1.ta-IN.resx",
+    "original_sha256": "5132c7cfd58e2c09b5ffe9375076431691308fe50d1ab0ae7ec9e68c0761104c",
+    "archive_sha256": "5132c7cfd58e2c09b5ffe9375076431691308fe50d1ab0ae7ec9e68c0761104c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.CardServices1.th-TH.resx",
+    "original_sha256": "2d68d4e0bda1d04112ce3d87c4ae7d5456e5ac64e225bcf18a746627ed6e84f4",
+    "archive_sha256": "2d68d4e0bda1d04112ce3d87c4ae7d5456e5ac64e225bcf18a746627ed6e84f4"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.CardServices1.vi-VN.resx",
+    "original_sha256": "cd4fed9992ec5bbd5c7b56eb2e5c1095ef66c77eff41ca128e7b03ec832e6993",
+    "archive_sha256": "cd4fed9992ec5bbd5c7b56eb2e5c1095ef66c77eff41ca128e7b03ec832e6993"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.CardServices1.zh-CN.resx",
+    "original_sha256": "d08f458ae41e759d0b96adfa28457c539646a5a8eac06a263ea4e84a4cf5f149",
+    "archive_sha256": "d08f458ae41e759d0b96adfa28457c539646a5a8eac06a263ea4e84a4cf5f149"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FaceAuthentication.en-US.resx",
+    "original_sha256": "51e43f2b22f05496a6e2a142bf13b651c6c6324e367699cc819f7a1c3d3a5ae0",
+    "archive_sha256": "51e43f2b22f05496a6e2a142bf13b651c6c6324e367699cc819f7a1c3d3a5ae0"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FaceAuthentication.es-ES.resx",
+    "original_sha256": "d47c03b055e1c4d17024f267067ba10918ba21f9bc6292ee837bcda6429a4a0b",
+    "archive_sha256": "d47c03b055e1c4d17024f267067ba10918ba21f9bc6292ee837bcda6429a4a0b"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FaceAuthentication.fr-FR.resx",
+    "original_sha256": "17372bb9e8abb578c4e352f27d1de1af3cd986922290bc94f5c15cac16b5ee65",
+    "archive_sha256": "17372bb9e8abb578c4e352f27d1de1af3cd986922290bc94f5c15cac16b5ee65"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FaceAuthentication.ja-JP.resx",
+    "original_sha256": "9a88d8775d62cf649d4b688eab991c2065256a93760ebd5181cf908a9fa20957",
+    "archive_sha256": "9a88d8775d62cf649d4b688eab991c2065256a93760ebd5181cf908a9fa20957"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FaceAuthentication.ko-KR.resx",
+    "original_sha256": "bf513f313f1cf2bf1f8f01306fb373af69e8ac9d2a718e9441bb7ae891989f68",
+    "archive_sha256": "bf513f313f1cf2bf1f8f01306fb373af69e8ac9d2a718e9441bb7ae891989f68"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FaceAuthentication.ms-MY.resx",
+    "original_sha256": "57d3ff82652ba2efb1e15cd46c47ed78836b10fccdf6af135e05dd9b3be5ffa4",
+    "archive_sha256": "57d3ff82652ba2efb1e15cd46c47ed78836b10fccdf6af135e05dd9b3be5ffa4"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FaceAuthentication.ta-IN.resx",
+    "original_sha256": "fe2b960c767a06095428e5443d7036dd0f839337d6c00eb2ab36677f39213fb7",
+    "archive_sha256": "fe2b960c767a06095428e5443d7036dd0f839337d6c00eb2ab36677f39213fb7"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FaceAuthentication.th-TH.resx",
+    "original_sha256": "d92cd01137d412fcb75959c3bcb4d0975626b907a6fd6bac56fd57a22aedbbde",
+    "archive_sha256": "d92cd01137d412fcb75959c3bcb4d0975626b907a6fd6bac56fd57a22aedbbde"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FaceAuthentication.vi-VN.resx",
+    "original_sha256": "9105618f48cf0e8653c5605cec489f79222c151d982bccc607abfa72f34f16cf",
+    "archive_sha256": "9105618f48cf0e8653c5605cec489f79222c151d982bccc607abfa72f34f16cf"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FaceAuthentication.zh-CN.resx",
+    "original_sha256": "1ecc35a16817de05dd96dcbff81f44dc4e8a25f18ec592b69d861c8de5f26911",
+    "archive_sha256": "1ecc35a16817de05dd96dcbff81f44dc4e8a25f18ec592b69d861c8de5f26911"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackCategorySelection.en-US.resx",
+    "original_sha256": "ea1b9b1b1c608ccbe8d337d317b1490f3d233414c5981db8d8c7a85e0d4a5f14",
+    "archive_sha256": "ea1b9b1b1c608ccbe8d337d317b1490f3d233414c5981db8d8c7a85e0d4a5f14"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackCategorySelection.es-ES.resx",
+    "original_sha256": "e6977e91c2bb997753120c16b6253f0cf5c9df026d6e15f1e0e86852ea176691",
+    "archive_sha256": "e6977e91c2bb997753120c16b6253f0cf5c9df026d6e15f1e0e86852ea176691"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackCategorySelection.fr-FR.resx",
+    "original_sha256": "bb2100c4ce1e236557dd472eeb66abdc0226f8b29026c26fe8030f99c910a9cd",
+    "archive_sha256": "bb2100c4ce1e236557dd472eeb66abdc0226f8b29026c26fe8030f99c910a9cd"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackCategorySelection.ja-JP.resx",
+    "original_sha256": "b606129396bb7a5b8e7f09543ac0d9bd09ac92f08ec48ed88c16529fa4a3e33e",
+    "archive_sha256": "b606129396bb7a5b8e7f09543ac0d9bd09ac92f08ec48ed88c16529fa4a3e33e"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackCategorySelection.ko-KR.resx",
+    "original_sha256": "9e7b0edfad14e92cf4b8de95c43262ab55b771b942af9772d23510ac5b0c8438",
+    "archive_sha256": "9e7b0edfad14e92cf4b8de95c43262ab55b771b942af9772d23510ac5b0c8438"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackCategorySelection.ms-MY.resx",
+    "original_sha256": "9b48ab73086d0123758cd213b75681cf7f093c84df5ec0131016f25ed59728fc",
+    "archive_sha256": "9b48ab73086d0123758cd213b75681cf7f093c84df5ec0131016f25ed59728fc"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackCategorySelection.ta-IN.resx",
+    "original_sha256": "19f4fea7ce039b231479f8c30fa8231872f7a4ac997391d361139816e2e62b7e",
+    "archive_sha256": "19f4fea7ce039b231479f8c30fa8231872f7a4ac997391d361139816e2e62b7e"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackCategorySelection.th-TH.resx",
+    "original_sha256": "2ac36b9d7080ad48463feb4a3642d16c87b78dff3860a035acd5638981f4d598",
+    "archive_sha256": "2ac36b9d7080ad48463feb4a3642d16c87b78dff3860a035acd5638981f4d598"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackCategorySelection.vi-VN.resx",
+    "original_sha256": "2481c5bb89157c3a15457f81ddd033ab19b8ca9af35fd4072fed478e37bfa16e",
+    "archive_sha256": "2481c5bb89157c3a15457f81ddd033ab19b8ca9af35fd4072fed478e37bfa16e"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackCategorySelection.zh-CN.resx",
+    "original_sha256": "d4c1139f5ae9004eb1928b471e3472ca543854d940f85fee97b79e9e89c34dd9",
+    "archive_sha256": "d4c1139f5ae9004eb1928b471e3472ca543854d940f85fee97b79e9e89c34dd9"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackStarSelection.en-US.resx",
+    "original_sha256": "9c1d44e24b73bf36f0f132d0dd469e18f496ec19a16ab733fe6008fefdcff6ff",
+    "archive_sha256": "9c1d44e24b73bf36f0f132d0dd469e18f496ec19a16ab733fe6008fefdcff6ff"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackStarSelection.es-ES.resx",
+    "original_sha256": "7987c1211ce779e97fe96f2237f84e34175ebc9a4c136862b6aefe3d9466f263",
+    "archive_sha256": "7987c1211ce779e97fe96f2237f84e34175ebc9a4c136862b6aefe3d9466f263"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackStarSelection.fr-FR.resx",
+    "original_sha256": "50f252844ad4059d5c504f9e0a51108154a3236fc2d23646ad6cbf948cc0b132",
+    "archive_sha256": "50f252844ad4059d5c504f9e0a51108154a3236fc2d23646ad6cbf948cc0b132"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackStarSelection.ja-JP.resx",
+    "original_sha256": "60f5083359cf85356e1b4115f3b5a76b2b5632db0d97fed66503710c04d280d1",
+    "archive_sha256": "60f5083359cf85356e1b4115f3b5a76b2b5632db0d97fed66503710c04d280d1"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackStarSelection.ko-KR.resx",
+    "original_sha256": "680197ace0e6e1b9a19237180901ea2e1d48c2a39619bef65d21a0e1ca4873ab",
+    "archive_sha256": "680197ace0e6e1b9a19237180901ea2e1d48c2a39619bef65d21a0e1ca4873ab"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackStarSelection.ms-MY.resx",
+    "original_sha256": "1b820d3e2baffb64aac523f1895f31a1b004c751c19ed15656261bf5b5807c2c",
+    "archive_sha256": "1b820d3e2baffb64aac523f1895f31a1b004c751c19ed15656261bf5b5807c2c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackStarSelection.ta-IN.resx",
+    "original_sha256": "15e272aa4e66e204eb15b958467028d4e24aacd731e557bfb46b19cc482a980f",
+    "archive_sha256": "15e272aa4e66e204eb15b958467028d4e24aacd731e557bfb46b19cc482a980f"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackStarSelection.th-TH.resx",
+    "original_sha256": "6182831390c579b9b846446b40ea7a55cab1b94de8573e94f49fbfae7e68ab82",
+    "archive_sha256": "6182831390c579b9b846446b40ea7a55cab1b94de8573e94f49fbfae7e68ab82"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackStarSelection.vi-VN.resx",
+    "original_sha256": "5bf840e0a245a5cc1e05de02a884070d581d78f9bb33488f57c15dd44ca66599",
+    "archive_sha256": "5bf840e0a245a5cc1e05de02a884070d581d78f9bb33488f57c15dd44ca66599"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FeedbackStarSelection.zh-CN.resx",
+    "original_sha256": "fbc181453ccb5c2638d456dd707da2805bb94c0db8a8f999d203053c4790b58a",
+    "archive_sha256": "fbc181453ccb5c2638d456dd707da2805bb94c0db8a8f999d203053c4790b58a"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FingerprintAuthentication.en-US.resx",
+    "original_sha256": "2e7f8482787e0e140714a1477a9896ce61481d97304b06ab33dee38f6c4641b2",
+    "archive_sha256": "2e7f8482787e0e140714a1477a9896ce61481d97304b06ab33dee38f6c4641b2"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FingerprintAuthentication.es-ES.resx",
+    "original_sha256": "a3c2519c3f86ce7ea99f7cbbaac8d855779c4d34a54bda3e7295000bdec5abce",
+    "archive_sha256": "a3c2519c3f86ce7ea99f7cbbaac8d855779c4d34a54bda3e7295000bdec5abce"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FingerprintAuthentication.fr-FR.resx",
+    "original_sha256": "eadd2deb7c86b8d01ab41de04f2cd70c08dee399b8363c64a49716d14a66dd3a",
+    "archive_sha256": "eadd2deb7c86b8d01ab41de04f2cd70c08dee399b8363c64a49716d14a66dd3a"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FingerprintAuthentication.ja-JP.resx",
+    "original_sha256": "8f1271d7122e7767911d6118cb7c6c7edcb9da3fc53262f52952f7fa7b04ef55",
+    "archive_sha256": "8f1271d7122e7767911d6118cb7c6c7edcb9da3fc53262f52952f7fa7b04ef55"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FingerprintAuthentication.ko-KR.resx",
+    "original_sha256": "9a410ff0e2f926ef7460cd560f274c5de34cec595268aeb0cac02abfd22ad04d",
+    "archive_sha256": "9a410ff0e2f926ef7460cd560f274c5de34cec595268aeb0cac02abfd22ad04d"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FingerprintAuthentication.ms-MY.resx",
+    "original_sha256": "2b59bb53e2dd61ad8b8bc8025cd4041d3cab60835b917321481c1ba382b7c06c",
+    "archive_sha256": "2b59bb53e2dd61ad8b8bc8025cd4041d3cab60835b917321481c1ba382b7c06c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FingerprintAuthentication.ta-IN.resx",
+    "original_sha256": "4c880f1089f42153224ee268efa195080c4e21b350eb69b802cd675823a9e28d",
+    "archive_sha256": "4c880f1089f42153224ee268efa195080c4e21b350eb69b802cd675823a9e28d"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FingerprintAuthentication.th-TH.resx",
+    "original_sha256": "b8ac0cad747f3511f2dabe59d01dc60ab4934d054a6c09ff41b6f086ee24d4f2",
+    "archive_sha256": "b8ac0cad747f3511f2dabe59d01dc60ab4934d054a6c09ff41b6f086ee24d4f2"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FingerprintAuthentication.vi-VN.resx",
+    "original_sha256": "688ea193c3d2c65db4c89a5f0972b3677c97c100f18b245b25dddb6e629818aa",
+    "archive_sha256": "688ea193c3d2c65db4c89a5f0972b3677c97c100f18b245b25dddb6e629818aa"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.FingerprintAuthentication.zh-CN.resx",
+    "original_sha256": "4d7036e84b062b2e7c9c522c3a141cbffb1767770b69cf0431882beeea111b28",
+    "archive_sha256": "4d7036e84b062b2e7c9c522c3a141cbffb1767770b69cf0431882beeea111b28"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.HomepageCashWithdraw.en-US.resx",
+    "original_sha256": "8f5738e484363c8f7fc32ee6f0c392da4d79e2ad8a5aeeac2fe05d4ccdd50dd2",
+    "archive_sha256": "8f5738e484363c8f7fc32ee6f0c392da4d79e2ad8a5aeeac2fe05d4ccdd50dd2"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.HomepageCashWithdraw.es-ES.resx",
+    "original_sha256": "cf4b82db36f3d4da599b4ca4249b31a848bd79644799baa56aab94555475a3de",
+    "archive_sha256": "cf4b82db36f3d4da599b4ca4249b31a848bd79644799baa56aab94555475a3de"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.HomepageCashWithdraw.fr-FR.resx",
+    "original_sha256": "9ace155d802545cbc2c0277742bf36c9f4009e6b99529b2f77ab5aa9f723a0f3",
+    "archive_sha256": "9ace155d802545cbc2c0277742bf36c9f4009e6b99529b2f77ab5aa9f723a0f3"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.HomepageCashWithdraw.ja-JP.resx",
+    "original_sha256": "7bd46e9dae469da9c0b3e945ef1a15885eb082865a246f3d52d867e3b1b830e8",
+    "archive_sha256": "7bd46e9dae469da9c0b3e945ef1a15885eb082865a246f3d52d867e3b1b830e8"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.HomepageCashWithdraw.ko-KR.resx",
+    "original_sha256": "a5267a12b3a5918b1496e7abac0661e64358558df8b6469649328f2e7f59661c",
+    "archive_sha256": "a5267a12b3a5918b1496e7abac0661e64358558df8b6469649328f2e7f59661c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.HomepageCashWithdraw.ms-MY.resx",
+    "original_sha256": "49b5da5bb7711d6642aa7c1cffbd3589489d7f321f64e9f0ede325f946164d2f",
+    "archive_sha256": "49b5da5bb7711d6642aa7c1cffbd3589489d7f321f64e9f0ede325f946164d2f"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.HomepageCashWithdraw.ta-IN.resx",
+    "original_sha256": "bbb079bac728957cd3e7dfc7365cf1294e1d5453a38d964a042c03aabf63e26d",
+    "archive_sha256": "bbb079bac728957cd3e7dfc7365cf1294e1d5453a38d964a042c03aabf63e26d"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.HomepageCashWithdraw.th-TH.resx",
+    "original_sha256": "611ff170714de8009314751e876f106b223f1aa06f0a4df69107e7e8e7b989f8",
+    "archive_sha256": "611ff170714de8009314751e876f106b223f1aa06f0a4df69107e7e8e7b989f8"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.HomepageCashWithdraw.vi-VN.resx",
+    "original_sha256": "d180e84e18d7085708bc87b8890b5f7a1a8fe9d31418c0ad6cfb5feb4c3906bf",
+    "archive_sha256": "d180e84e18d7085708bc87b8890b5f7a1a8fe9d31418c0ad6cfb5feb4c3906bf"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.HomepageCashWithdraw.zh-CN.resx",
+    "original_sha256": "61a4e3cd7b7613b084577c9127340a614da583cea759525ae79c689cfde13d1f",
+    "archive_sha256": "61a4e3cd7b7613b084577c9127340a614da583cea759525ae79c689cfde13d1f"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherCashAmount.en-US.resx",
+    "original_sha256": "b06d4322563a8846f517de82d65492c1fd128d657d58195142490f090778dbfe",
+    "archive_sha256": "b06d4322563a8846f517de82d65492c1fd128d657d58195142490f090778dbfe"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherCashAmount.es-ES.resx",
+    "original_sha256": "9c0c202f224ef8369f85c54d0a0de403dd238405fa06f8eaa74ec53567d37738",
+    "archive_sha256": "9c0c202f224ef8369f85c54d0a0de403dd238405fa06f8eaa74ec53567d37738"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherCashAmount.fr-FR.resx",
+    "original_sha256": "7573a100ee8d65d1f0290708f86d3f6c4218fa7dbb5b490cf5e4a36d18155c44",
+    "archive_sha256": "7573a100ee8d65d1f0290708f86d3f6c4218fa7dbb5b490cf5e4a36d18155c44"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherCashAmount.ja-JP.resx",
+    "original_sha256": "915c2b923db723802226ff01c0a7c7e9d5551006bcb3d7d80fdf88e83fcc9bf0",
+    "archive_sha256": "915c2b923db723802226ff01c0a7c7e9d5551006bcb3d7d80fdf88e83fcc9bf0"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherCashAmount.ko-KR.resx",
+    "original_sha256": "e78dfe07916a6f615f6c1769a90ce6fa211ecc75be37aed420ff0e9141f1580a",
+    "archive_sha256": "e78dfe07916a6f615f6c1769a90ce6fa211ecc75be37aed420ff0e9141f1580a"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherCashAmount.ms-MY.resx",
+    "original_sha256": "66c6703b21bfd16b9bbcbc4be615ec43a6522116bad9b03b84f66d05903f1379",
+    "archive_sha256": "66c6703b21bfd16b9bbcbc4be615ec43a6522116bad9b03b84f66d05903f1379"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherCashAmount.ta-IN.resx",
+    "original_sha256": "707cb8292e937677ac74443b747197dc80bb819e34fbbbf893501df615a96db5",
+    "archive_sha256": "707cb8292e937677ac74443b747197dc80bb819e34fbbbf893501df615a96db5"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherCashAmount.th-TH.resx",
+    "original_sha256": "04ab0ed97c7784a0de66f94f8850521f18ee0f9793804071f1a21d39b360f1b9",
+    "archive_sha256": "04ab0ed97c7784a0de66f94f8850521f18ee0f9793804071f1a21d39b360f1b9"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherCashAmount.vi-VN.resx",
+    "original_sha256": "dd9bcc1f95fb07257cffb720ee4b9de09d2ec2e112f245473d0d46ef519676b1",
+    "archive_sha256": "dd9bcc1f95fb07257cffb720ee4b9de09d2ec2e112f245473d0d46ef519676b1"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherCashAmount.zh-CN.resx",
+    "original_sha256": "1c53b574346b2babf32b4801862ea428086949139b980f1799417efea17bcc93",
+    "archive_sha256": "1c53b574346b2babf32b4801862ea428086949139b980f1799417efea17bcc93"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherOCBCAccount.en-US.resx",
+    "original_sha256": "a022e22cc664b15d203b43dbacfca67566750217e54ed293cc09de651183910d",
+    "archive_sha256": "a022e22cc664b15d203b43dbacfca67566750217e54ed293cc09de651183910d"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherOCBCAccount.es-ES.resx",
+    "original_sha256": "6ad065d4291f206f1447b6e5d186a8e99c99579982ca27125cf96a1168a49958",
+    "archive_sha256": "6ad065d4291f206f1447b6e5d186a8e99c99579982ca27125cf96a1168a49958"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherOCBCAccount.fr-FR.resx",
+    "original_sha256": "2fb22950bd154a89c9493b95d5f753f3fd8161ef9ce56b6df3342b7f46208764",
+    "archive_sha256": "2fb22950bd154a89c9493b95d5f753f3fd8161ef9ce56b6df3342b7f46208764"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherOCBCAccount.ja-JP.resx",
+    "original_sha256": "deb4c0324ab97221974484c2cd4c0d9ee942a64a00042cc7d6dbaa6b2309eb7b",
+    "archive_sha256": "deb4c0324ab97221974484c2cd4c0d9ee942a64a00042cc7d6dbaa6b2309eb7b"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherOCBCAccount.ko-KR.resx",
+    "original_sha256": "99f2822595e845a5a692b301bb2d621a69f07c6578da94dfcc10cfdbc1b38949",
+    "archive_sha256": "99f2822595e845a5a692b301bb2d621a69f07c6578da94dfcc10cfdbc1b38949"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherOCBCAccount.ms-MY.resx",
+    "original_sha256": "e617dfb51a1474b1634f1da78d0eb5849cd69d7dfe5c1b8d47981f18eb1deebc",
+    "archive_sha256": "e617dfb51a1474b1634f1da78d0eb5849cd69d7dfe5c1b8d47981f18eb1deebc"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherOCBCAccount.ta-IN.resx",
+    "original_sha256": "69477a28c2424313bc96902638074eed83a90518e8ea28540bf9f02be326e4c3",
+    "archive_sha256": "69477a28c2424313bc96902638074eed83a90518e8ea28540bf9f02be326e4c3"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherOCBCAccount.th-TH.resx",
+    "original_sha256": "211b452e236fa493b02a3a67e0440f9cfb33acc62c553bfa95ec3ae3d3486557",
+    "archive_sha256": "211b452e236fa493b02a3a67e0440f9cfb33acc62c553bfa95ec3ae3d3486557"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherOCBCAccount.vi-VN.resx",
+    "original_sha256": "ac028277f5325502deb8101635e0cbe0638d066beca3f1797fedbb12bae0e4d1",
+    "archive_sha256": "ac028277f5325502deb8101635e0cbe0638d066beca3f1797fedbb12bae0e4d1"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherOCBCAccount.zh-CN.resx",
+    "original_sha256": "907f4b75f9388aaeea35591f40f2868b9cb06c3e3ffbd304d938ea5495b48859",
+    "archive_sha256": "907f4b75f9388aaeea35591f40f2868b9cb06c3e3ffbd304d938ea5495b48859"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherServices1.en-US.resx",
+    "original_sha256": "71e07e6b7fd351a8c79d3b5f23f6da88c6c14fc8661e3aef92077979f6693808",
+    "archive_sha256": "71e07e6b7fd351a8c79d3b5f23f6da88c6c14fc8661e3aef92077979f6693808"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherServices1.es-ES.resx",
+    "original_sha256": "4515bcaec9e720e8814bac6768739b5175371277d34a374d2c99148b9bd379dd",
+    "archive_sha256": "4515bcaec9e720e8814bac6768739b5175371277d34a374d2c99148b9bd379dd"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherServices1.fr-FR.resx",
+    "original_sha256": "d9f67b7cffefa980de95348ee8b9db5cbc909c449fe9882ba12a4a0230ae559d",
+    "archive_sha256": "d9f67b7cffefa980de95348ee8b9db5cbc909c449fe9882ba12a4a0230ae559d"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherServices1.ja-JP.resx",
+    "original_sha256": "d19c14949bcccde506b87ebdb4bcb230b3be7a31a703c0abaad470ff0002b9cf",
+    "archive_sha256": "d19c14949bcccde506b87ebdb4bcb230b3be7a31a703c0abaad470ff0002b9cf"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherServices1.ko-KR.resx",
+    "original_sha256": "0ae569584a733cb147a00494b37c6ad588e4a282c1f79eb55119484b9a9bbf31",
+    "archive_sha256": "0ae569584a733cb147a00494b37c6ad588e4a282c1f79eb55119484b9a9bbf31"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherServices1.ms-MY.resx",
+    "original_sha256": "6f8c07dd949d8d7c23561def6d42642394866e0e10b5738e4b7a5abec3d6ed79",
+    "archive_sha256": "6f8c07dd949d8d7c23561def6d42642394866e0e10b5738e4b7a5abec3d6ed79"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherServices1.ta-IN.resx",
+    "original_sha256": "4554a9f2c3c55dff44c28ebaeea81cd9699b598541b0438e5d323405c5fbbdfc",
+    "archive_sha256": "4554a9f2c3c55dff44c28ebaeea81cd9699b598541b0438e5d323405c5fbbdfc"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherServices1.th-TH.resx",
+    "original_sha256": "8d7f788381fb2708754dcdecc039c59d539d59d669b05a7a0ed4368ec9464557",
+    "archive_sha256": "8d7f788381fb2708754dcdecc039c59d539d59d669b05a7a0ed4368ec9464557"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherServices1.vi-VN.resx",
+    "original_sha256": "83f7d9487958ba628f4aa1e524e69bbc7442cf5d13b8d5886588da62b5513e85",
+    "archive_sha256": "83f7d9487958ba628f4aa1e524e69bbc7442cf5d13b8d5886588da62b5513e85"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.OtherServices1.zh-CN.resx",
+    "original_sha256": "060aca8d5f826068639a2e68a0592cec9d4604b9adf1ad25da869858884b741c",
+    "archive_sha256": "060aca8d5f826068639a2e68a0592cec9d4604b9adf1ad25da869858884b741c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.PasswordPIN.en-US.resx",
+    "original_sha256": "ffa8b7ad7445b1a7718e8719cddf8504e39af3c0cced3ff5288173e4345fe152",
+    "archive_sha256": "ffa8b7ad7445b1a7718e8719cddf8504e39af3c0cced3ff5288173e4345fe152"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.PasswordPIN.es-ES.resx",
+    "original_sha256": "7d45dafd1c2fc2ba5ee83367c9e8a2977d377d4bd2adb32e1768a9323267fe0e",
+    "archive_sha256": "7d45dafd1c2fc2ba5ee83367c9e8a2977d377d4bd2adb32e1768a9323267fe0e"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.PasswordPIN.fr-FR.resx",
+    "original_sha256": "b81d8858244704d587b7bb6e4700621bff07c43798fd4f3b97e24747c9c28087",
+    "archive_sha256": "b81d8858244704d587b7bb6e4700621bff07c43798fd4f3b97e24747c9c28087"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.PasswordPIN.ja-JP.resx",
+    "original_sha256": "17ea2d07e33141e827c9b7ceab64e2f630fbd93e54c0f4ec2b580e324b57e51b",
+    "archive_sha256": "17ea2d07e33141e827c9b7ceab64e2f630fbd93e54c0f4ec2b580e324b57e51b"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.PasswordPIN.ko-KR.resx",
+    "original_sha256": "512066886d1b57bb4e62a5afc36c807b42d684943928a54eb276f80d3343856f",
+    "archive_sha256": "512066886d1b57bb4e62a5afc36c807b42d684943928a54eb276f80d3343856f"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.PasswordPIN.ms-MY.resx",
+    "original_sha256": "266326734781a179a03d4102f61e4171364a380fff8c501b98452214ed87176c",
+    "archive_sha256": "266326734781a179a03d4102f61e4171364a380fff8c501b98452214ed87176c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.PasswordPIN.ta-IN.resx",
+    "original_sha256": "60b5346559ee3e228134f1be8c94d5eff2e7d751b1ec107936f6be864d9d960c",
+    "archive_sha256": "60b5346559ee3e228134f1be8c94d5eff2e7d751b1ec107936f6be864d9d960c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.PasswordPIN.th-TH.resx",
+    "original_sha256": "d17c62aa056491ce7cc29b9bca2b6b6eefe428280f44e349b5cb133f2ecb42ad",
+    "archive_sha256": "d17c62aa056491ce7cc29b9bca2b6b6eefe428280f44e349b5cb133f2ecb42ad"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.PasswordPIN.vi-VN.resx",
+    "original_sha256": "141daafc588150e501e2621416bb64c1efa34d413b99bbd0d429412b70c140d1",
+    "archive_sha256": "141daafc588150e501e2621416bb64c1efa34d413b99bbd0d429412b70c140d1"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.PasswordPIN.zh-CN.resx",
+    "original_sha256": "ef53216babb8b0e06a039f9a1e66cb81e4db59424422551740724d538a09fa11",
+    "archive_sha256": "ef53216babb8b0e06a039f9a1e66cb81e4db59424422551740724d538a09fa11"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.QRCodeFeedback.en-US.resx",
+    "original_sha256": "d9f2758de4e996408fdb73cb407945d411b54ec1293a59a7897b87a02908c6e7",
+    "archive_sha256": "d9f2758de4e996408fdb73cb407945d411b54ec1293a59a7897b87a02908c6e7"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.QRCodeFeedback.es-ES.resx",
+    "original_sha256": "6d48f42ec92a3680f0232b92957ca07683ac9bca07d39016d9b7533bf76d5079",
+    "archive_sha256": "6d48f42ec92a3680f0232b92957ca07683ac9bca07d39016d9b7533bf76d5079"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.QRCodeFeedback.fr-FR.resx",
+    "original_sha256": "f337736695fb2a97cd67684cff7221ff32cb716cff33b7f550364142244a60eb",
+    "archive_sha256": "f337736695fb2a97cd67684cff7221ff32cb716cff33b7f550364142244a60eb"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.QRCodeFeedback.ja-JP.resx",
+    "original_sha256": "92d5d149b350ece161ff3e395fa15e5f186c0722dc164983f84104d625fb1c0b",
+    "archive_sha256": "92d5d149b350ece161ff3e395fa15e5f186c0722dc164983f84104d625fb1c0b"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.QRCodeFeedback.ko-KR.resx",
+    "original_sha256": "bfd3c835777ae1a2239c2fa271c3b602aaea21daf6726506a864d059316d87ce",
+    "archive_sha256": "bfd3c835777ae1a2239c2fa271c3b602aaea21daf6726506a864d059316d87ce"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.QRCodeFeedback.ms-MY.resx",
+    "original_sha256": "84defb2099b4ca44f1e196bf8a2522fdc2f9cdca7453a8f0bc3f1855c833d669",
+    "archive_sha256": "84defb2099b4ca44f1e196bf8a2522fdc2f9cdca7453a8f0bc3f1855c833d669"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.QRCodeFeedback.ta-IN.resx",
+    "original_sha256": "4caac8a5adbb0b269d372e026f8c3dd7f3168a5838a7427bb9aa45b221e27ab4",
+    "archive_sha256": "4caac8a5adbb0b269d372e026f8c3dd7f3168a5838a7427bb9aa45b221e27ab4"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.QRCodeFeedback.th-TH.resx",
+    "original_sha256": "f67fe4f297e6f642a863f57567512770f9c32b37db9be07b46e04379245ed2c1",
+    "archive_sha256": "f67fe4f297e6f642a863f57567512770f9c32b37db9be07b46e04379245ed2c1"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.QRCodeFeedback.vi-VN.resx",
+    "original_sha256": "77cbe8288d36a69689b58f86399b9bc34e83504d0ecdcd143c34d76775bf0dbb",
+    "archive_sha256": "77cbe8288d36a69689b58f86399b9bc34e83504d0ecdcd143c34d76775bf0dbb"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.QRCodeFeedback.zh-CN.resx",
+    "original_sha256": "3c7e6629e324899fc3de2f4d83f3427f718999a5159b6553d00a636e0948b8c8",
+    "archive_sha256": "3c7e6629e324899fc3de2f4d83f3427f718999a5159b6553d00a636e0948b8c8"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Receipt.en-US.resx",
+    "original_sha256": "bd5cc9f55490e6be248fe84c58cf507ed5dfc1eaa94c550af9fd1bef8024b798",
+    "archive_sha256": "bd5cc9f55490e6be248fe84c58cf507ed5dfc1eaa94c550af9fd1bef8024b798"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Receipt.es-ES.resx",
+    "original_sha256": "05751109799b8f843c295eb710441a4e04e155a872530f41110a73f041e69363",
+    "archive_sha256": "05751109799b8f843c295eb710441a4e04e155a872530f41110a73f041e69363"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Receipt.fr-FR.resx",
+    "original_sha256": "98388b73403db8b8e4a5216aaba429f1e4e8840c1ab9a0d18e3ff7e0d8498543",
+    "archive_sha256": "98388b73403db8b8e4a5216aaba429f1e4e8840c1ab9a0d18e3ff7e0d8498543"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Receipt.ja-JP.resx",
+    "original_sha256": "fa7feccfc117e0856c1a4b14d4d978e0533d5ac1dc56f586d8e30b5f5daf7790",
+    "archive_sha256": "fa7feccfc117e0856c1a4b14d4d978e0533d5ac1dc56f586d8e30b5f5daf7790"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Receipt.ko-KR.resx",
+    "original_sha256": "4d8caf7d90eccbd5b930298b252708c67050d678a62afe1d5ea30376fadb17c8",
+    "archive_sha256": "4d8caf7d90eccbd5b930298b252708c67050d678a62afe1d5ea30376fadb17c8"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Receipt.ms-MY.resx",
+    "original_sha256": "b75279b46f2081b258c2f824d6d938d7ee0a8c54bf35ed3399a1fb01d76e8e7e",
+    "archive_sha256": "b75279b46f2081b258c2f824d6d938d7ee0a8c54bf35ed3399a1fb01d76e8e7e"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Receipt.ta-IN.resx",
+    "original_sha256": "0ea4b957f467fa50c362548048a517d9d9ac234fd44c91e44cd70d32ec6068f9",
+    "archive_sha256": "0ea4b957f467fa50c362548048a517d9d9ac234fd44c91e44cd70d32ec6068f9"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Receipt.th-TH.resx",
+    "original_sha256": "0a65516c02bdbd0c0c9aaa0be7138f838b4bde09d52ee9d90d191fa341ff354c",
+    "archive_sha256": "0a65516c02bdbd0c0c9aaa0be7138f838b4bde09d52ee9d90d191fa341ff354c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Receipt.vi-VN.resx",
+    "original_sha256": "be5e88b079ef228e85effdc4a9026853d6c245f6c8a44b857037bdd5affbd28d",
+    "archive_sha256": "be5e88b079ef228e85effdc4a9026853d6c245f6c8a44b857037bdd5affbd28d"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Receipt.zh-CN.resx",
+    "original_sha256": "b6e07c53fb42c85ce2bf7430363c27865d26c7b5429346887c1296169d703524",
+    "archive_sha256": "b6e07c53fb42c85ce2bf7430363c27865d26c7b5429346887c1296169d703524"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.SelectLoginMethod.en-US.resx",
+    "original_sha256": "df6d5b3478be90cbea6de5e8271fc2aae0556f2bd8d4c1d0cfed77ec7cb93d7c",
+    "archive_sha256": "df6d5b3478be90cbea6de5e8271fc2aae0556f2bd8d4c1d0cfed77ec7cb93d7c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.SelectLoginMethod.es-ES.resx",
+    "original_sha256": "07f4894c231e59342146e1896d5caf29c3c0f62a91a6ee477e907fac432ac72a",
+    "archive_sha256": "07f4894c231e59342146e1896d5caf29c3c0f62a91a6ee477e907fac432ac72a"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.SelectLoginMethod.fr-FR.resx",
+    "original_sha256": "31aff8213298e177b0604e8ba9dc8bd36deb2f7649e32f0fc2e549f127bf29f3",
+    "archive_sha256": "31aff8213298e177b0604e8ba9dc8bd36deb2f7649e32f0fc2e549f127bf29f3"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.SelectLoginMethod.ja-JP.resx",
+    "original_sha256": "0e4d8de822c44eba64a181c657fb327c0af82fbe96cdc4a198646bfb4e597d07",
+    "archive_sha256": "0e4d8de822c44eba64a181c657fb327c0af82fbe96cdc4a198646bfb4e597d07"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.SelectLoginMethod.ko-KR.resx",
+    "original_sha256": "23982e5d9bbf685afc0551d7cff84240d072f7143d85543d9ea4b3aa99b1d3db",
+    "archive_sha256": "23982e5d9bbf685afc0551d7cff84240d072f7143d85543d9ea4b3aa99b1d3db"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.SelectLoginMethod.ms-MY.resx",
+    "original_sha256": "b6103a5df7c77ea6547422da2d57aaa81e6a35684e462fe653ecf681843568f7",
+    "archive_sha256": "b6103a5df7c77ea6547422da2d57aaa81e6a35684e462fe653ecf681843568f7"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.SelectLoginMethod.ta-IN.resx",
+    "original_sha256": "c23449e314c74bcba4b5ced7ec7f4c5bfe32bf2e1ee36ed43e0576ff53694eb1",
+    "archive_sha256": "c23449e314c74bcba4b5ced7ec7f4c5bfe32bf2e1ee36ed43e0576ff53694eb1"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.SelectLoginMethod.th-TH.resx",
+    "original_sha256": "7dc011b17291e0dd35a7ea18fc176d250357bf867f7f2bb92891bfb042f87303",
+    "archive_sha256": "7dc011b17291e0dd35a7ea18fc176d250357bf867f7f2bb92891bfb042f87303"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.SelectLoginMethod.vi-VN.resx",
+    "original_sha256": "bc8bf27fffbcf361fb5dadeae66bb47691fa185020194d696f3e1f1156770e32",
+    "archive_sha256": "bc8bf27fffbcf361fb5dadeae66bb47691fa185020194d696f3e1f1156770e32"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.SelectLoginMethod.zh-CN.resx",
+    "original_sha256": "ef93a7715b74357352acdeb5fb1ca9be3558705c280ec3e61c167f0411db5197",
+    "archive_sha256": "ef93a7715b74357352acdeb5fb1ca9be3558705c280ec3e61c167f0411db5197"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Thankyou.en-US.resx",
+    "original_sha256": "a6613aef6afd0d72cd554afec962f075a2ed5fbd306fe069c365724245ccc160",
+    "archive_sha256": "a6613aef6afd0d72cd554afec962f075a2ed5fbd306fe069c365724245ccc160"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Thankyou.es-ES.resx",
+    "original_sha256": "70e454fef6726a96b79b4498aad05d7a24513121f27446e4b8b1e758997da99d",
+    "archive_sha256": "70e454fef6726a96b79b4498aad05d7a24513121f27446e4b8b1e758997da99d"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Thankyou.fr-FR.resx",
+    "original_sha256": "1bddd4d9688363e8eed2f32e4ed44136ddfa2aee13fcd9d848b83f5f4ba2a742",
+    "archive_sha256": "1bddd4d9688363e8eed2f32e4ed44136ddfa2aee13fcd9d848b83f5f4ba2a742"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Thankyou.ja-JP.resx",
+    "original_sha256": "947bec11d7b5a33d098826c9052d6991681a8931c5da64e7194a2c55c2a5762e",
+    "archive_sha256": "947bec11d7b5a33d098826c9052d6991681a8931c5da64e7194a2c55c2a5762e"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Thankyou.ko-KR.resx",
+    "original_sha256": "275728049803fef905478a3deaf95d0e691e21b486a28ec3d022d668cb85c223",
+    "archive_sha256": "275728049803fef905478a3deaf95d0e691e21b486a28ec3d022d668cb85c223"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Thankyou.ms-MY.resx",
+    "original_sha256": "684975b9eaf64b3c9ecdef8e6d8c9fca521a3299725405948ba7b9730d2929d4",
+    "archive_sha256": "684975b9eaf64b3c9ecdef8e6d8c9fca521a3299725405948ba7b9730d2929d4"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Thankyou.ta-IN.resx",
+    "original_sha256": "396f07f7cc99a0972b88232b65cd03ae435c757f5288c8f6ccefe5d8fb0289d7",
+    "archive_sha256": "396f07f7cc99a0972b88232b65cd03ae435c757f5288c8f6ccefe5d8fb0289d7"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Thankyou.th-TH.resx",
+    "original_sha256": "040553d3ae1ec130c0e6544e77b01e58686739e795060c8373f5ff1af19526c5",
+    "archive_sha256": "040553d3ae1ec130c0e6544e77b01e58686739e795060c8373f5ff1af19526c5"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Thankyou.vi-VN.resx",
+    "original_sha256": "cc9d0f0f834ccd9ee17d8c333a42880919c0ad83328e31d253d445e78aae2782",
+    "archive_sha256": "cc9d0f0f834ccd9ee17d8c333a42880919c0ad83328e31d253d445e78aae2782"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.Thankyou.zh-CN.resx",
+    "original_sha256": "c57ca1a5d24c71734b64c8ad726e6da970b7aa925fda9d2c71981ebd6f1ad130",
+    "archive_sha256": "c57ca1a5d24c71734b64c8ad726e6da970b7aa925fda9d2c71981ebd6f1ad130"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.TransferFunds.en-US.resx",
+    "original_sha256": "7a2343c80ff8a6155578056d32bf7a36995c43f31231a0411c07a5bb809dead8",
+    "archive_sha256": "7a2343c80ff8a6155578056d32bf7a36995c43f31231a0411c07a5bb809dead8"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.TransferFunds.es-ES.resx",
+    "original_sha256": "e07005a1c2d8aaa8dac545513614ff3c0833420c15c449d46f97f3d496e02023",
+    "archive_sha256": "e07005a1c2d8aaa8dac545513614ff3c0833420c15c449d46f97f3d496e02023"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.TransferFunds.fr-FR.resx",
+    "original_sha256": "f2d47bdd6212462ac17742d372a9e6833df9eb816974ec7a078b0d00ebd31b1f",
+    "archive_sha256": "f2d47bdd6212462ac17742d372a9e6833df9eb816974ec7a078b0d00ebd31b1f"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.TransferFunds.ja-JP.resx",
+    "original_sha256": "3c31164e09c46eeef3b5710f6eb425dcc2239443723dfac65ab662b8a1b26a8f",
+    "archive_sha256": "3c31164e09c46eeef3b5710f6eb425dcc2239443723dfac65ab662b8a1b26a8f"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.TransferFunds.ko-KR.resx",
+    "original_sha256": "0243a4f4781e397a0fb880f230bc302f472f188536a5c7c63ec3ec3848b31cef",
+    "archive_sha256": "0243a4f4781e397a0fb880f230bc302f472f188536a5c7c63ec3ec3848b31cef"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.TransferFunds.ms-MY.resx",
+    "original_sha256": "9e9931ae522e5e5929f38bf388ac76abc301b72d51321e3ded1c56ccc95e1dd1",
+    "archive_sha256": "9e9931ae522e5e5929f38bf388ac76abc301b72d51321e3ded1c56ccc95e1dd1"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.TransferFunds.ta-IN.resx",
+    "original_sha256": "5b3ae3c82354d2e00ae7d1347f298cfe2c578a46c660eea5664fbf5f3fb6312c",
+    "archive_sha256": "5b3ae3c82354d2e00ae7d1347f298cfe2c578a46c660eea5664fbf5f3fb6312c"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.TransferFunds.th-TH.resx",
+    "original_sha256": "0f1b138aea02cea7dfd3946e165aad283d881084e1b79b0b7f532199b09b9556",
+    "archive_sha256": "0f1b138aea02cea7dfd3946e165aad283d881084e1b79b0b7f532199b09b9556"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.TransferFunds.vi-VN.resx",
+    "original_sha256": "0d61aa0dd9ad564338ead2d9a447288105742feb2444eb9a85f224488e903a92",
+    "archive_sha256": "0d61aa0dd9ad564338ead2d9a447288105742feb2444eb9a85f224488e903a92"
+  },
+  {
+    "path": "PFD_Assignment/Resources/Views.Home.TransferFunds.zh-CN.resx",
+    "original_sha256": "1af57b7b2bb3bd4ed2d626c900813986b34c41289329ed07f19243d1c3577eb5",
+    "archive_sha256": "1af57b7b2bb3bd4ed2d626c900813986b34c41289329ed07f19243d1c3577eb5"
   }
 ]
