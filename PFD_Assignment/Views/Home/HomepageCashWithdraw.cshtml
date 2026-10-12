@@ -1,0 +1,112 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "HomepageCashWithdraw";
+    var customer = ViewBag.Customer as Customer;
+    var account = ViewBag.Account as Account;
+}
+<!--
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Customer Details:</h3>
+        <p>Customer ID: @customer?.CustomerID</p>
+        <p>Name: @customer?.FirstName @customer?.LastName</p>
+        <p>Email: @customer?.EmailAddress</p>
+        <p>Phone: @customer?.Phone</p>
+
+        <h3>Account Details:</h3>
+        <p>Account Number: @account?.AccountNum</p>
+        <p>Balance: $@account?.Amount.ToString("N2")</p>
+        <p>Status: @account?.AccountStatus</p>
+    </div>
+</div>
+-->
+<div class="container-fluid">
+    <div class="row equal-height">
+        <!-- Left Layer -->
+        <div class="col-md-6 left-layer">
+            <div class="header-text-cashwithdraw">
+                <h3>@Localizer["Hello"] @customer?.FirstName @customer?.LastName</h3>
+                <h3>@Localizer["What would you like to do today?"]</h3>
+                <br />
+                <br />
+                <h4 style="font-weight: bold;">@Localizer["Get Cash"]</h4>
+            </div>
+
+            <div class="cash-withdraw">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <button class="btn custom-btn-cash me-md-2" type="button" onclick="confirmWithdrawal(50)">$50</button>
+                    <button class="btn custom-btn-cash me-md-2" type="button" onclick="confirmWithdrawal(80)">$80</button>
+                </div>
+                <br />
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <button class="btn custom-btn-cash me-md-2" type="button" onclick="confirmWithdrawal(100)">$100</button>
+                    <button class="btn custom-btn-cash me-md-2" type="button" onclick="confirmWithdrawal(200)">$200</button>
+                </div>
+                <br />
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <a class="btn custom-btn-cash me-md-2" type="button" href="@Url.Action("OtherCashAmount", "Home")">@Localizer["Other Cash Amount"]</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Layer -->
+        <!-- Right Layer -->
+        <div class="col-md-6 right-layer position-relative">
+            <div class="exit-btn-cash position-absolute">
+                <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                    <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+                </a>
+            </div>
+            <div class="header-text-cashwithdraw pt-4">
+                <!-- Add padding-top to offset the space taken by the exit button -->
+                <h3 style="opacity:0;">Hello @customer?.FirstName @customer?.LastName</h3>
+                <h4 style="opacity:0;">What would you like to do today?</h4>
+                <br />
+                <br />
+                <br />
+                <h4 style="font-weight: bold;">@Localizer["Other Services"]</h4>
+            </div>
+            <div class="cash-withdraw-service">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <a class="btn custom-btn-service me-md-2" type="button" href="@Url.Action("AccountBalance", "Home")" style="padding:80px 70px;">
+                        <span class="btn-text">@Localizer["Ask About Balance"]</span>
+                    </a>
+                    <a class="btn custom-btn-service me-md-2" type="button" href="@Url.Action("TransferFunds", "Home")" style="padding:80px 70px;">
+                        <span class="btn-text">@Localizer["Transfer Fund"]</span>
+                    </a>
+                    @if (ViewBag.MostRecentActionName != null)
+                    {
+                        string actionName = ViewBag.MostRecentActionName;
+                        string featureName = ViewBag.MostRecentFeatureName;
+                        <a class="btn custom-btn-service me-md-2" type="button" href="@Url.Action(actionName, "Home")" style="padding:80px 70px;">
+                            <span class="btn-text">@Localizer["Recent: " + @featureName] </span>
+                        </a>
+                    }
+                    @if (ViewBag.FavouriteActionName != null)
+                    {
+                        string actionName = ViewBag.FavouriteActionName;
+                        string featureName = ViewBag.FavouriteFeatureName;
+                        <a class="btn custom-btn-service me-md-2" type="button" href="@Url.Action(actionName, "Home")" style="padding:80px 70px;">
+                            <span class="btn-text">@Localizer["Favourite: " + @featureName]</span>
+                        </a>
+                    }
+                </div>                
+                <div class="more-services-link">
+                    <a href="@Url.Action("OtherServices1", "Home")" class="service-link">@Localizer["More services"] ></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+   <script>
+        function confirmWithdrawal(amount) {
+            window.location.href = '@Url.Action("AmountWithdraw", "Home")' + '?amount=' + amount;
+        }
+
+        // Historical third-party chatbot widget omitted from this archive.
+   </script>
+}

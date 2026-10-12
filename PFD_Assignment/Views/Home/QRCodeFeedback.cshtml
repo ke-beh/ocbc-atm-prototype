@@ -1,0 +1,39 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "QRCodeFeedback";
+}
+
+<div class="container">
+    <!-- Logo at the top left -->
+    <div class="row align-items-center">
+        <div class="col-8">
+            <img src="~/assets/OCBC-Bank-Logo.png"
+                 alt="Logo"
+                 class="img-fluid logo" />
+        </div>
+        <div class="col-4 text-right exit-btn">
+            <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+            </a>
+        </div>
+    </div>
+
+    <h1 style="text-align: center; padding-top: 4em; font-size: 1.5rem;">
+        @Localizer["Qrcode_Instructions"]
+    </h1>
+
+    <img src="~/assets/ocbc_feedback_qr_code.png" width="350px" height="auto" style="margin-top:5em; display: block; margin-left: auto; margin-right: auto;" />
+
+
+    @section Scripts {
+        <script type="text/javascript">
+            setTimeout(function () {
+                window.location.href = '@Url.Action("Thankyou", "Home")';
+            }, 20000); //20 seconds
+
+            // Historical third-party chatbot widget omitted from this archive.
+        </script>
+    }
+
+</div>

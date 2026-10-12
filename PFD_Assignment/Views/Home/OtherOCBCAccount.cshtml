@@ -1,0 +1,87 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "OtherOCBCAccount";
+}
+
+<div class="container">
+    <!-- Logo at the top left -->
+    <div class="row align-items-center">
+        <div class="col-8">
+            <img src="~/assets/OCBC-Bank-Logo.png"
+                 alt="Logo"
+                 class="img-fluid logo" />
+        </div>
+        <div class="col-4 text-right exit-btn">
+            <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="header-text-passwordpin">
+        <h3 style="font-weight:bold;">@Localizer["Other OCBC Account User"]</h3>
+        <br />
+        <br />
+    </div>
+
+    <form asp-action="OtherOCBCAccount" asp-controller="Home" method="post">
+        <div class="mb-3">
+            <label class="form-label">@Localizer["Telephone Number"]</label>
+            <input type="text" name="phoneNumber" placeholder="@Localizer["Enter Phone Number"]" class="form-control" id="telOrBankInput" aria-describedby="telOrBankHelp" pattern="[89]\d{7}" title="@Localizer["Please enter a valid phone number starting with 8 or 9 and consisting of 8 digits"]" required style="width: 290px;">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">@Localizer["Deposit Amount"]</label>
+            <input type="number" name="depositAmount" placeholder="@Localizer["Enter Deposit Amount"]" step="0.01" class="form-control" id="depositAmountInput" min="0.01" required style="width: 290px;">
+        </div>
+
+        <!-- OTP input box -->
+        <div class="mb-3">
+            <label class="form-label">@Localizer["OTP"]</label>
+            <input type="text" name="otp" placeholder="@Localizer["Enter OTP"]" class="form-control" id="otpInput" required style="width: 290px;">
+            <button type="button" id="verifyOtpButton" class="btn btn-primary" style="margin-top: 25px;">@Localizer["Verify OTP"]</button>
+            <span id="otpMessage" style=" color:red; position: absolute; padding: 30px 0px 0px 7px;"></span> <!-- This is where the message will be displayed -->
+        </div>
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="d-flex justify-content-left align-items-left" style="padding-top: 15px;">
+            <button class="btn btn-lg btn-no" type="submit" id="submitButton" disabled>@Localizer["Confirm"]</button>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+    document.getElementById('verifyOtpButton').addEventListener('click', function () {
+        var otp = document.getElementById('otpInput').value;
+        var otpMessage = document.getElementById('otpMessage'); // Get the message span
+
+        var url = '@Url.Action("VerifyOTP", "Home")';
+        console.log("URL for AJAX call: ", url); // This will log the URL
+        fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ enteredOtp: otp })
+        })
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                if (data.success) {
+                    document.getElementById('submitButton').disabled = false;
+                    otpMessage.textContent = 'OTP verified successfully!'; // Set success message
+                    otpMessage.style.color = 'green'; // Set text color to green
+                } else {
+                    otpMessage.textContent = 'Invalid OTP. Please try again.'; // Set failure message
+                    otpMessage.style.color = 'red'; // Set text color to red
+                }
+            })
+            .catch(function (error) {
+                console.error('Error:', error);
+                otpMessage.textContent = 'Error verifying OTP.'; // Set error message
+                otpMessage.style.color = 'red'; // Set text color to red
+            });
+    });
+
+    // Historical third-party chatbot widget omitted from this archive.
+</script>

@@ -1,0 +1,173 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "Face ID Authentication";
+}
+<style>
+    .status-success {
+        color: green;
+    }
+
+    .status-processing {
+        color: yellow;
+    }
+
+    .status-fail {
+        color: red;
+    }
+</style>
+
+
+<div class="container">
+    <!-- Logo at the top left -->
+    <div class="row align-items-center">
+        <div class="col-8">
+            <img src="~/assets/OCBC-Bank-Logo.png" alt="Logo" class="img-fluid logo" />
+        </div>
+        <div class="col-4 text-right exit-btn">
+            <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="header-text-faceid">
+        <h3>@Localizer["Please put your face closer to the screen."]</h3>
+    </div>
+
+    <div style="display:flex; justify-content: center; align-items: center; padding-top:10px;">
+        <div class="embed-responsive embed-responsive-16by9">
+            <video id="video" style="border: 3px solid #666; border-radius: 10px; max-height: 400px; " autoplay></video>
+            <div class="loading-overlay" id="loadingOverlay">
+                <div class="loading-spinner"></div>
+            </div>
+            <canvas id="canvas" style="display: none;"></canvas>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/tracking-min.js"></script>
+    <script src="~/js/face-min.js"></script>
+    <script>
+        var video = document.getElementById('video');
+        var canvas = document.getElementById('canvas');
+        var context = canvas.getContext('2d');
+        var isAuthenticated = false; // New flag to indicate authentication status
+        var isRequestPending = false; // Initialize the flag
+        // Automatically get access to the camera
+        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+            navigator.mediaDevices.getUserMedia({ video: true })
+                .then(function (stream) {
+                    video.srcObject = stream;
+                    video.play();
+                })
+                .catch(function (err) {
+                });
+        }
+
+        function updateStatusText(message, statusType) {
+            var headerTextElement = document.querySelector('.header-text-faceid h3');
+            headerTextElement.textContent = message;
+            headerTextElement.className = 'status-text'; // Reset class to default
+            switch (statusType) {
+                case 'success':
+                    headerTextElement.classList.add('status-success');
+                    break;
+                case 'processing':
+                    headerTextElement.classList.add('status-processing');
+                    break;
+                case 'fail':
+                    headerTextElement.classList.add('status-fail');
+                    break;
+            }
+        }
+
+
+        // Face tracking setup
+        var tracker = new tracking.ObjectTracker(['face']);
+        tracker.setInitialScale(4);
+        tracker.setStepSize(2);
+        tracker.setEdgesDensity(0.1);
+        tracking.track('#video', tracker);
+
+        tracker.on('track', function (event) {
+            if (event.data.length === 0) {
+                // No faces were detected in this frame.
+            } else {
+                // Send face data to the server
+                if (!isRequestPending) {
+                    sendFaceDataToServer();
+                }
+            }
+        });
+
+        function sendFaceDataToServer() {
+            if (isAuthenticated) { // Check if the user is already authenticated
+                return; // If authenticated, do not proceed
+            }
+            isRequestPending = true; // Set flag to true before sending request
+            updateStatusText('@Localizer["Processing, please wait..."]', 'processing'); // Update the status text with processing color
+            showLoadingOverlay();
+            canvas.width = video.videoWidth;
+            canvas.height = video.videoHeight;
+            context.drawImage(video, 0, 0, canvas.width, canvas.height);
+            var data = canvas.toDataURL('image/png');
+
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("ReceiveFaceData", "Home")',
+                data: {
+                    image: data
+                },
+                success: function (response) {
+                    isRequestPending = false;
+                    hideLoadingOverlay();
+
+                    if (response.success && response.redirectUrl) {
+                        isAuthenticated = true; // Set the flag to true as authentication succeeded
+                        stopTrackingAndStream(); // Stop tracking and stream
+                        updateStatusText('@Localizer["Logging you in..."]', 'success'); // Update the status text
+                        window.location.href = response.redirectUrl;
+                    } else {
+                        updateStatusText('@Localizer["Face not recognized. Please try again."]', 'fail');
+                        // Change the text if the response is not successful
+                        updateHeaderTextToTryAgain();
+                    }
+                },
+                error: function (error) {
+                    updateStatusText('@Localizer["Error occurred. Please try again."]', 'fail');
+                    isRequestPending = false;
+                    hideLoadingOverlay();
+                }
+            });
+        }
+        function showLoadingOverlay() {
+            document.getElementById('loadingOverlay').style.display = 'flex';
+        }
+
+        function hideLoadingOverlay() {
+            document.getElementById('loadingOverlay').style.display = 'none';
+        }
+
+        function updateHeaderTextToTryAgain() {
+            var headerTextElement = document.querySelector('.header-text-faceid h3');
+            headerTextElement.textContent = '@Localizer["Please try again."]';
+            headerTextElement.classList.add('text-danger'); // Add 'text-danger' class
+        }
+        function stopTrackingAndStream() {
+            tracker.removeAllListeners(); // Remove all listeners from the tracker
+            var stream = video.srcObject;
+            var tracks = stream.getTracks();
+
+            tracks.forEach(function (track) {
+                track.stop(); // Stop each track to stop the camera
+            });
+
+            video.srcObject = null; // Clear the video source
+        }
+
+        // Historical third-party chatbot widget omitted from this archive.
+    </script>
+}

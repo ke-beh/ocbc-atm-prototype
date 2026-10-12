@@ -1,0 +1,41 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "Receipt";
+}
+
+<div class="container">
+    <!-- Logo at the top left -->
+    <div class="row align-items-center">
+        <div class="col-8">
+        </div>
+        <div class="col-4 text-right exit-btn">
+            <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="header-text-faceid">
+        <h3>@Localizer["How would you like to print your receipt?"]</h3>
+    </div>
+
+    <div class="container-lan">
+        <!-- ATM Screen Content -->
+        <div class="row mt-4 justify-content-center">
+            <div class="col-lg-4 box">
+                <a class="btn custom-btn btn-block mb-2" type="button">@Localizer["Physical Receipt"]</a>
+                <a class="btn custom-btn btn-block mb-2" type="button" href="@Url.Action("EReceipt", "Home")">@Localizer["E-Receipt"]</a>
+            </div>
+            <div class="col-lg-4 box">
+                <a class="btn custom-btn btn-block mb-2" type="button" href="@Url.Action("AccountBalance", "Home")">@Localizer["No Receipt (Show Balance)"]</a>
+            </div>
+            <div class="col-lg-4 box">
+                <a class="btn custom-btn btn-block mb-2" type="button" href="@Url.Action("FeedbackStarSelection", "Home")">@Localizer["No Receipt (Hide Balance)"]</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    // Historical third-party chatbot widget omitted from this archive.
+</script>

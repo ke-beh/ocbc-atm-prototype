@@ -1,0 +1,39 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "Fingerprint Authentication";
+}
+
+<div class="container">
+    <!-- Logo at the top left -->
+    <div class="row align-items-center">
+        <div class="col-8">
+            <img src="~/assets/OCBC-Bank-Logo.png"
+                 alt="Logo"
+                 class="img-fluid logo" />
+        </div>
+        <div class="col-4 text-right exit-btn">
+            <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Fingerprint Authentication Section -->
+    <div class="instructions">
+        <h2>@Localizer["Fingerprint Authentication"]</h2>
+        <p>@Localizer["Please place your finger on the scanner"]</p>
+    </div>
+    <div class="fingerprint-scanner"></div>
+</div>
+
+@section Scripts {
+    <script>
+        function startScan() {           
+            console.log("Starting fingerprint scan...");
+            //NOTE: Implementation for fingerprint functions using libraries such as PyFingerprint for fingerprint scanning here.
+        }
+
+        // Historical third-party chatbot widget omitted from this archive.
+    </script>
+}

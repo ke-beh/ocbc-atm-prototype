@@ -1,0 +1,89 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "CardServices1";
+}
+
+<div class="container">
+    <!-- Logo at the top left -->
+    <div class="row align-items-center">
+        <div class="col-8">
+            <br />
+            <h3>@Localizer["Hello"]</h3>
+            <h3>@Localizer["What would you like to do today?"]</h3>
+        </div>
+        <div class="col-4 text-right exit-btn">
+            <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="header-text">
+        <h3 style="font-weight: bold;">@Localizer["Account Services"]</h3>
+    </div>
+
+    <div class="container-lan">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- First Slide (Initial Six Buttons) -->
+                <div class="swiper-slide">
+                    <div class="row mt-4 justify-content-center">
+                        <div class="col-lg-4 box">
+                            <button class="btn custom-btn-service-1 btn-block mb-2">
+                                <span class="btn-text">@Localizer["Update Card"]</span>
+                            </button>
+                            <button class="btn custom-btn-service-1 btn-block mb-2">
+                                <span class="btn-text">@Localizer["View Card"]</span>
+                            </button>
+                        </div>
+                        <div class="col-lg-4 box">
+                            <button class="btn custom-btn-service-1 btn-block mb-2">
+                                <span class="btn-text">@Localizer["Report Card Fraud"]</span>
+                            </button>
+                            <button class="btn custom-btn-service-1 btn-block mb-2">
+                                <span class="btn-text">@Localizer["Card Management"]</span>
+                            </button>
+                        </div>
+                        <div class="col-lg-4 box">
+                            <button class="btn custom-btn-service-1 btn-block mb-2">
+                                <span class="btn-text">@Localizer["Change Card Password"]</span>
+                            </button>
+                            <button class="btn custom-btn-service-1 btn-block mb-2">
+                                <span class="btn-text">@Localizer["Card Details"]</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: false,
+
+            // If you want pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows (optional)
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            spaceBetween: 57,
+        });
+
+        // Historical third-party chatbot widget omitted from this archive.
+    </script>
+}

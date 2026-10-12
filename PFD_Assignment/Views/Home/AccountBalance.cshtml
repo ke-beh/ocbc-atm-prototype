@@ -1,0 +1,68 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "AccountBalance";
+    var customer = ViewBag.Customer as Customer;
+    var account = ViewBag.Account as Account;
+}
+
+<div class="container">
+    <!-- Logo at the top left -->
+    <div class="row align-items-center">
+        <div class="col-8">
+            <img src="~/assets/OCBC-Bank-Logo.png"
+                 alt="Logo"
+                 class="img-fluid logo" />
+        </div>
+        <div class="col-4 text-right exit-btn">
+            <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="header-text-faceid">
+        <h3 style="font-weight: bold; padding-bottom: 20px;">@Localizer["Here is your account balance"]</h3>
+    </div>
+
+    <table class="table custom-table" style="width: 30%; margin: auto;">
+        <tbody>
+            <tr>
+                <th scope="row">@Localizer["Account balance"]</th>
+                <td>$@account.Amount</td>
+            </tr>
+            <tr>
+                <th scope="row">@Localizer["Available balance"]</th>
+                <td>$500</td>
+            </tr>
+            <tr>
+                <th scope="row">@Localizer["Cheque pending clearance"]</th>
+                <td>$200</td>
+            </tr>
+            <tr>
+                <th scope="row">@Localizer["Amounts on hold"]</th>
+                <td colspan="2">$123.70</td>
+            </tr>
+            <tr>
+                <th scope="row">@Localizer["Overdraft available"]</th>
+                <td colspan="2">$119.50</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h5 style="text-align: center; padding-top: 20px; padding-bottom: 12px;">@Localizer["Do you wish to continue?"]</h5>
+
+    <div class="d-flex justify-content-center align-items-center">
+        <div>
+            <a href="@Url.Action("FeedbackStarSelection", "Home")" class="btn btn-lg btn-yes" type="button">
+                @Localizer["No"]
+            </a>
+            <a href="@Url.Action("HomepageCashWithdraw", "Home")" class="btn btn-lg btn-no" type="button">
+                @Localizer["Yes"]
+            </a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    // Historical third-party chatbot widget omitted from this archive.
+</script>

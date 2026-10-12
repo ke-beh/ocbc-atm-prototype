@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.container {
+    margin: 20px;
+}
+
+.custom-btn {
+    background-color: #323c46;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 69px 75px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 9px 12px 26px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.custom-btn-cash {
+    background-color: #323c46;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 50px 60px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 9px 12px 26px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-btn-service {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    padding: 120px 40px;
+    width: 100%;
+    max-width: 190px;
+    border-radius: 12px;
+    border: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 7px 6px 26px rgba(0, 0, 0, 0.2);
+    position: relative;
+    text-align: left;
+}
+
+    .custom-btn-service > .btn-text {
+        position: absolute;
+        bottom: 12px;
+        left: 15px;
+        max-width: 90px;
+    }
+
+.custom-btn-service-1 {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    padding: 96px 75px;
+    width: 90%;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 9px 12px 26px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .custom-btn-service-1 .btn-text {
+        position: absolute;
+        bottom: 12px;
+        left: 15px;
+    }
+
+
+.btn-block + .btn-block {
+    margin-top: 4rem;
+}
+
+.custom-btn:hover,
+.custom-btn-cash:hover {
+    background-color: #6a6c70;
+}
+
+.logo {
+    margin-top: 15xpx;
+    max-width: 150px;
+}
+
+.exit-btn {
+    padding-top: 28px;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.exit-btn-cash {
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+.exit-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.box {
+    padding: 2rem;
+}
+
+.header-text {
+    padding-top: 1rem;
+}
+
+    .header-text h4 {
+        margin-bottom: 0;
+    }
+
+.header-text-logintype {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.header-text-faceid {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header-text-passwordpin {
+    padding-top: 3rem;
+    text-align: left;
+}
+
+.header-text-cashwithdraw {
+    padding-left: 2rem;
+    padding-top: 3rem;
+    text-align: left;
+}
+
+.text-support {
+    text-align: center;
+    padding-top: 13rem;
+    text-decoration: underline;
+}
+
+    .text-support:hover {
+        color: #0c62b8;
+        cursor: pointer;
+    }
+
+.pincode-input-container {
+    gap: 10px;
+}
+
+.atm-password {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pincode-input {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 60px;
+    height: 70px;
+    border-radius: 3px;
+    border: 1px solid #6a6c70;
+    box-shadow: inset 0 4px 4px rgba(0,0,0,0.1);
+}
+
+    .pincode-input:focus {
+        border-color: #80bdff;
+        box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    }
+
+    .pincode-input.bs5-focused {
+        border-color: #86b7fe;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+    }
+
+.fingerprint-scanner {
+    border: 3px solid #666;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.instructions {
+    padding-top: 2rem;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.left-layer {
+    background-color: #EFEFEF;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.right-layer {
+    background-color: #FFF;
+    padding: 20px;
+}
+
+.equal-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .equal-height > [class*='col-'] {
+        display: flex;
+        flex-direction: column;
+    }
+
+.cash-withdraw {
+    margin: 30px;
+}
+
+.cash-withdraw-service {
+    margin: 50px;
+}
+
+.more-services-link {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.service-link {
+    color: #0B61D0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.custom-table {
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+    .custom-table th,
+    .custom-table td {
+        padding: 20px;
+    }
+
+.btn-yes,
+.btn-no {
+    background-color: #323C46;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 16px 50px;
+}
+
+.loading-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-spinner {
+    border: 5px solid rgba(255, 255, 255, 0.3);
+    border-top: 5px solid #ff0000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

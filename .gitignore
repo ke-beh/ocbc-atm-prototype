@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+.vs/
+**/appsettings.*.json
+**/wwwroot/facemodels/
+**/wwwroot/uploads/
+**/wwwroot/assets/*.jpg
+.env*
+*.user

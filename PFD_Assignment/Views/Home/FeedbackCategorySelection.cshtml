@@ -1,0 +1,62 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "FeedbackCategory";
+}
+
+<div class="container">
+    <!-- Logo at the top left -->
+    <div class="row align-items-center">
+        <div class="col-8">
+            <img src="~/assets/OCBC-Bank-Logo.png"
+                 alt="Logo"
+                 class="img-fluid logo" />
+        </div>
+        <div class="col-4 text-right exit-btn">
+            <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+            </a>
+        </div>
+    </div>
+
+    <h1 style="text-align: center; padding-top: 4em; font-size: 1.5rem;">
+        @Localizer["Oh no! We are sorry for our poor service. Can you please select what you think can be improved?"]
+    </h1>
+
+    <div class="feedbackCategory" style="display:flex; justify-content:center; flex-wrap:wrap;">
+        <div style="text-align:center; margin: 1em;">
+            <a href="@Url.Action("feedbackcategory1", "Home")">
+                <img src="https://static.thenounproject.com/png/2000829-200.png" class="feedback-category-image" style="width:116px; height:116px; margin-bottom: 0.5em;">
+            </a>
+            <p>@Localizer["Services Provided"]</p>
+        </div>
+        <div style="text-align:center; margin: 2em;">
+            <a href="@Url.Action("feedbackcategory2", "Home")">
+                <img src="https://cdn-icons-png.flaticon.com/512/150/150325.png" class="feedback-category-image" style="width:100px; height:100px; margin-bottom: 0.5em;">
+            </a>
+            <p>@Localizer["Ease of Usage"]</p>
+        </div>
+        <div style="text-align:center; margin: 2em;">
+            <a href="@Url.Action("feedbackcategory3", "Home")">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Noun_Project_maintenance_icon_943595_cc.svg/1200px-Noun_Project_maintenance_icon_943595_cc.svg.png" class="feedback-category-image" style="width:100px; height:100px; margin-bottom: 0.5em;">
+            </a>
+            <p>@Localizer["ATM Usability"]</p>
+        </div>
+        <div style="text-align:center; margin: 2em;">
+            <a href="@Url.Action("feedbackcategory4", "Home")">
+                <img src="https://cdn-icons-png.freepik.com/512/1746/1746650.png" class="feedback-category-image" style="width:100px; height:100px; margin-bottom: 0.5em;">
+            </a>
+            <p>@Localizer["ATM Security"]</p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        setTimeout(function () {
+            window.location.href = '@Url.Action("Thankyou", "Home")';
+        }, 60000); //60 seconds
+
+        // Historical third-party chatbot widget omitted from this archive.
+    </script>
+}

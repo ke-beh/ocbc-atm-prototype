@@ -1,0 +1,34 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "Thankyou";
+}
+
+<div class="container">
+    <!-- Logo at the top left -->
+    <div class="row align-items-center">
+        <div class="col-8">
+            <img src="~/assets/OCBC-Bank-Logo.png"
+                 alt="Logo"
+                 class="img-fluid logo" />
+        </div>
+        <div class="col-4 text-right exit-btn">
+            <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+            </a>
+        </div>
+    </div>
+
+    <h1 style="text-align: center; padding-top: 3.1em; font-size: 4.7rem;">@Localizer["Thank you!"]</h1>
+    <p style="text-align: center; margin-top: 10px;">@Localizer["You will be redirected shortly..."]</p>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        setTimeout(function () {
+            window.location.href = '@Url.Action("SelectLanguages", "Home")';
+        }, 5000); //5 seconds
+
+        // Historical third-party chatbot widget omitted from this archive.
+    </script>
+}

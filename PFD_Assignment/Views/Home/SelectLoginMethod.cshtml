@@ -1,0 +1,50 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "SelectLoginMethod";
+}
+
+<div class="container">
+    <!-- Logo at the top left -->
+    <div class="row align-items-center">
+        <div class="col-8">
+            <img src="~/assets/OCBC-Bank-Logo.png"
+                 alt="Logo"
+                 class="img-fluid logo" />
+        </div>
+        <div class="col-4 text-right exit-btn">
+            <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="header-text-logintype">
+        <h3>@Localizer["Please choose your login type"]</h3>
+    </div>
+
+    <div class="container-lan">
+        <!-- ATM Screen Content -->
+        <div class="row mt-4 justify-content-center">
+            <div class="col-lg-4 box">
+                <!-- Left Side Buttons -->
+                <a href="@Url.Action("PasswordPIN", "Home")" class="btn custom-btn btn-block mb-2">@Localizer["Password/PIN"]</a>
+            </div>
+            <div class="col-lg-4 box">
+                <!-- Right Side Buttons -->
+                <a href="@Url.Action("FaceAuthentication", "Home")" class="btn custom-btn btn-block mb-2">@Localizer["Face ID"]</a>
+            </div>
+            <div class="col-lg-4 box">
+                <!-- Additional Right Side Buttons -->
+                <a href="@Url.Action("FingerprintAuthentication", "Home")" class="btn custom-btn btn-block mb-2">@Localizer["Fingerprints"]</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-support">
+        <h5>@Localizer["Dial-in for help/ Support"]</h5>
+    </div>
+</div>
+<script type="text/javascript">
+    // Historical third-party chatbot widget omitted from this archive.
+</script>

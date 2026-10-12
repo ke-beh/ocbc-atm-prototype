@@ -1,0 +1,290 @@
+@{
+    ViewData["Title"] = "Select Languages";
+}
+<style>
+    .logo-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .microphone-btn {
+        background-color: #007bff; /* Match this with your theme color */
+        border: none;
+        border-radius: 50%;
+        width: 60px; /* Adjust size as needed */
+        height: 60px; /* Adjust size as needed */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); /* Optional: adds some depth */
+        cursor: pointer;
+    }
+
+    .microphone-icon {
+        color: white;
+        font-size: 24px; /* Adjust icon size as needed */
+    }
+
+    .microphone-container {
+        display: inline-block; /* Use inline-block for proper alignment */
+        position: relative; /* Position relative to allow absolute positioning inside */
+        float: right; /* Keep the microphone to the right */
+        padding-right: 15px; /* Adjust this value to match your layout's spacing */
+    }
+
+
+    #microphoneStatus {
+        position: absolute; /* Position the text absolutely to align it as needed */
+        top: 70px; /* Adjust this value so the text is below the button */
+        left: 50%; /* Start at 50% from the left of the microphone-container */
+        transform: translateX(-50%); /* This will center the text */
+        white-space: nowrap; /* Ensures the text stays in one line */
+    }
+
+
+
+</style>
+
+<div class="container">
+    <div class="logo-container">
+        <!-- Logo at the top left -->
+        <img src="~/assets/OCBC-Bank-Logo.png" alt="Logo" class="img-fluid logo" />
+        <!-- Microphone button at the top right -->
+        <div class="microphone-container">
+            <button class="microphone-btn" id="microphoneButton">
+                <i class="fas fa-microphone microphone-icon"></i>
+            </button>
+            <div id="microphoneStatus" class="text-center">Tap and Speak</div>
+        </div>
+    </div>
+
+    <div class="header-text">
+        <h4>Please select your language preferences</h4>
+    </div>
+
+
+
+    <div class="container-lan">
+        <!-- ATM Screen Content -->
+        <div class="row mt-4 justify-content-center">
+            <div class="col-lg-4 box">
+                <form id="languageForm1" asp-action="SetLanguage" asp-controller="Home" method="post" asp-route-returnUrl="@Url.Action("SelectLoginMethod", "Home")" asp-route-culture="en-US">
+                    <button type="submit" class="btn custom-btn btn-block mb-2" id="languageButton1">English</button>
+                </form>
+                <form id="languageForm2" asp-action="SetLanguage" asp-controller="Home" method="post" asp-route-returnUrl="@Url.Action("SelectLoginMethod", "Home")" asp-route-culture="ta-IN">
+                    <button type="submit" class="btn custom-btn btn-block mb-2" id="languageButton2">Tamil</button>
+                </form>
+            </div>
+            <div class="col-lg-4 box">
+                <form id="languageForm3" asp-action="SetLanguage" asp-controller="Home" method="post" asp-route-returnUrl="@Url.Action("SelectLoginMethod", "Home")" asp-route-culture="zh-CN">
+                    <button type="submit" class="btn custom-btn btn-block mb-2" id="languageButton3">中文(简体)</button>
+                </form>
+                <form id="languageForm4" asp-action="SetLanguage" asp-controller="Home" method="post" asp-route-returnUrl="@Url.Action("SelectLoginMethod", "Home")" asp-route-culture="ja-JP">
+                    <button type="submit" class="btn custom-btn btn-block mb-2" id="languageButton4">日本語</button>
+                </form>
+            </div>
+            <div class="col-lg-4 box">
+                <form id="languageForm5" asp-action="SetLanguage" asp-controller="Home" method="post" asp-route-returnUrl="@Url.Action("SelectLoginMethod", "Home")" asp-route-culture="ms-MY">
+                    <button type="submit" class="btn custom-btn btn-block mb-2" id="languageButton5">Bahasa Melayu</button>
+                </form>
+                <button class="btn custom-btn btn-block mb-2" id="moreLanguagesButton">More..</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+<script src="~/js/_languageData.js"></script>
+<script src="~/js/guessLanguage.js"></script>
+
+<script>
+    var moreButton = document.getElementById("moreLanguagesButton");
+    var isMoreClicked = false;
+
+    moreButton.addEventListener("click", function () {
+        if (!isMoreClicked) {
+
+            // Change English to French
+            var englishButton = document.getElementById("languageButton1");
+            englishButton.textContent = "French";
+
+            var tamilButton = document.getElementById("languageButton2");
+            tamilButton.textContent = "Thai";
+
+            var chinesehButton = document.getElementById("languageButton3");
+            chinesehButton.textContent = "Korean";
+
+            var japaneseButton = document.getElementById("languageButton4");
+            japaneseButton.textContent = "Spanish";
+
+            var malayButton = document.getElementById("languageButton5");
+            malayButton.textContent = "Vietnamese";
+            // Update form action
+            var englishForm = document.getElementById("languageForm1");
+
+            // Use Url.Action to generate a local URL
+            var returnUrl = encodeURIComponent('@Url.Action("SelectLoginMethod", "Home")');
+            englishForm.action = '@Url.Action("SetLanguage", "Home")?culture=fr-FR&returnUrl=' + returnUrl;
+
+            // Update the asp-route-culture attribute
+            englishForm.setAttribute('asp-route-culture', 'fr-FR');
+
+            var tamilForm = document.getElementById("languageForm2");
+
+            // Use Url.Action to generate a local URL
+            var returnUrl = encodeURIComponent('@Url.Action("SelectLoginMethod", "Home")');
+            tamilForm.action = '@Url.Action("SetLanguage", "Home")?culture=th-TH&returnUrl=' + returnUrl;
+
+            // Update the asp-route-culture attribute
+            tamilForm.setAttribute('asp-route-culture', 'th-TH');
+
+            var chineseForm = document.getElementById("languageForm3");
+
+            // Use Url.Action to generate a local URL
+            var returnUrl = encodeURIComponent('@Url.Action("SelectLoginMethod", "Home")');
+            chineseForm.action = '@Url.Action("SetLanguage", "Home")?culture=ko-KR&returnUrl=' + returnUrl;
+
+            // Update the asp-route-culture attribute
+            chineseForm.setAttribute('asp-route-culture', 'ko-KR');
+
+            var japaneseForm = document.getElementById("languageForm4");
+
+            // Use Url.Action to generate a local URL
+            var returnUrl = encodeURIComponent('@Url.Action("SelectLoginMethod", "Home")');
+            japaneseForm.action = '@Url.Action("SetLanguage", "Home")?culture=es-ES&returnUrl=' + returnUrl;
+
+            // Update the asp-route-culture attribute
+            japaneseForm.setAttribute('asp-route-culture', 'es-ES');
+
+            var malayForm = document.getElementById("languageForm5");
+
+            // Use Url.Action to generate a local URL
+            var returnUrl = encodeURIComponent('@Url.Action("SelectLoginMethod", "Home")');
+            malayForm.action = '@Url.Action("SetLanguage", "Home")?culture=vi-VN&returnUrl=' + returnUrl;
+
+            // Update the asp-route-culture attribute
+            malayForm.setAttribute('asp-route-culture', 'vi-VN');
+
+            moreButton.textContent = "Back";
+        }
+        else {
+            // Change French to English
+            var englishButton = document.getElementById("languageButton1");
+            englishButton.textContent = "English";
+
+            var tamilButton = document.getElementById("languageButton2");
+            tamilButton.textContent = "Tamil";
+
+            var chineseButton = document.getElementById("languageButton3");
+            chineseButton.textContent = "中文(简体)";
+
+            var japaneseButton = document.getElementById("languageButton4");
+            japaneseButton.textContent = "日本語";
+
+            var malayButton = document.getElementById("languageButton5");
+            malayButton.textContent = "Bahasa Melayu";
+
+            // Update form actions and culture attributes as before...
+            var englishForm = document.getElementById("languageForm1");
+            var returnUrl = encodeURIComponent('@Url.Action("SelectLoginMethod", "Home")');
+            englishForm.action = '@Url.Action("SetLanguage", "Home")?culture=en-US&returnUrl=' + returnUrl;
+            englishForm.setAttribute('asp-route-culture', 'en-US');
+
+            var tamilForm = document.getElementById("languageForm2");
+            var returnUrl = encodeURIComponent('@Url.Action("SelectLoginMethod", "Home")');
+            tamilForm.action = '@Url.Action("SetLanguage", "Home")?culture=ta-IN&returnUrl=' + returnUrl;
+            tamilForm.setAttribute('asp-route-culture', 'ta-IN');
+
+            var chineseForm = document.getElementById("languageForm3");
+            var returnUrl = encodeURIComponent('@Url.Action("SelectLoginMethod", "Home")');
+            chineseForm.action = '@Url.Action("SetLanguage", "Home")?culture=zh-CN&returnUrl=' + returnUrl;
+            chineseForm.setAttribute('asp-route-culture', 'zh-CN');
+
+            var japaneseForm = document.getElementById("languageForm4");
+            var returnUrl = encodeURIComponent('@Url.Action("SelectLoginMethod", "Home")');
+            japaneseForm.action = '@Url.Action("SetLanguage", "Home")?culture=ja-JP&returnUrl=' + returnUrl;
+            japaneseForm.setAttribute('asp-route-culture', 'ja-JP');
+
+            var malayForm = document.getElementById("languageForm5");
+            var returnUrl = encodeURIComponent('@Url.Action("SelectLoginMethod", "Home")');
+            malayForm.action = '@Url.Action("SetLanguage", "Home")?culture=ms-MY&returnUrl=' + returnUrl;
+            malayForm.setAttribute('asp-route-culture', 'ms-MY');
+
+            moreButton.textContent = "More";
+        }
+
+        isMoreClicked = !isMoreClicked;
+    });
+
+    document.getElementById("microphoneButton").addEventListener("click", function () {
+        var languages = ['zh-CN', 'en-US']; // Start with Chinese
+        var currentLanguageIndex = 0;
+        var recognition;
+
+        function createRecognitionInstance(language) {
+            var newRecognition = new webkitSpeechRecognition();
+            newRecognition.continuous = false;
+            newRecognition.interimResults = false;
+            newRecognition.lang = language;
+
+            newRecognition.onresult = function (event) {
+                if (event.results.length > 0 && event.results[0].isFinal) {
+                    var transcript = event.results[0][0].transcript.trim();
+                    console.log('Detected transcript:', transcript);
+
+                    if (language === 'zh-CN' && isChineseTranscript(transcript)) {
+                        console.log('Language detected: Chinese');
+                        submitLanguageForm('zh-CN');
+                    } else { 
+                        console.log('Language detected: English');
+                        submitLanguageForm('en-US');
+                    }
+                }
+            };
+
+            newRecognition.onend = function () {
+                document.getElementById("microphoneStatus").textContent = "Tap and Speak";
+                // Try the next language if the current one fails
+                if (currentLanguageIndex < languages.length - 1) {
+                    currentLanguageIndex++;
+                    startRecognition(languages[currentLanguageIndex]);
+                }
+            };
+
+            newRecognition.onerror = function (event) {
+                document.getElementById("microphoneStatus").textContent = "Tap and Speak";
+                newRecognition.stop();
+            };
+
+            return newRecognition;
+        }
+
+        function isChineseTranscript(transcript) {
+            // Check for the presence of Chinese characters
+            return /[\u4e00-\u9fa5]/.test(transcript);
+        }
+
+        function startRecognition(language) {
+            recognition = createRecognitionInstance(language);
+            document.getElementById("microphoneStatus").textContent = "Recording...";
+            recognition.start();
+        }
+
+        function submitLanguageForm(languageCode) {
+            var formId = {
+                'en-US': "languageForm1",
+                'zh-CN': "languageForm3"
+            }[languageCode];
+
+            if (formId) {
+                document.getElementById(formId).submit();
+            } else {
+            }
+        }
+
+        // Start the recognition with the first language in the list (Chinese)
+        startRecognition(languages[currentLanguageIndex]);
+    });
+
+    // Historical third-party chatbot widget omitted from this archive.
+</script>

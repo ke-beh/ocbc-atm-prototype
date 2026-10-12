@@ -1,0 +1,52 @@
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "FeedbackStarSelection";
+}
+
+<div class="container">
+    <!-- Logo at the top left -->
+    <div class="row align-items-center">
+        <div class="col-8">
+            <img src="~/assets/OCBC-Bank-Logo.png"
+                 alt="Logo"
+                 class="img-fluid logo" />
+        </div>
+        <div class="col-4 text-right exit-btn">
+            <a href="@Url.Action("SelectLanguages", "Home")" class="exit-link">
+                <p>@Localizer["Language"] | @Localizer["Exit"]</p>
+            </a>
+        </div>
+    </div>
+
+    <h1 style="text-align: center; padding-top: 1em; font-size: 2rem;">@Localizer["Please rate your experience from 1-5 stars"]</h1>
+
+
+    <div class="starSelection" style="text-align: center; margin-top: 5em; font-size: 0px;">
+        <a href="@Url.Action("feedback1", "Home")">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/001/189/165/small/star.png">
+        </a>
+        <a href="@Url.Action("feedback2", "Home")">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/001/189/165/small/star.png">
+        </a>
+        <a href="@Url.Action("feedback3", "Home")">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/001/189/165/small/star.png">
+        </a>
+        <a href="@Url.Action("feedback4", "Home")">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/001/189/165/small/star.png">
+        </a>
+        <a href="@Url.Action("feedback5", "Home")">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/001/189/165/small/star.png">
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        setTimeout(function () {
+            window.location.href = '@Url.Action("Thankyou", "Home")';
+        }, 40000); //40 seconds
+
+        // Historical third-party chatbot widget omitted from this archive.
+    </script>
+}

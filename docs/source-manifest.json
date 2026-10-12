@@ -1,0 +1,517 @@
+[
+  {
+    "path": "PFD_Assignment.sln",
+    "original_sha256": "7f8763708fc793a2d4a49ad5f9db2f11f4bd92ba35a0ddbeebf407f4173818f1",
+    "archive_sha256": "7f8763708fc793a2d4a49ad5f9db2f11f4bd92ba35a0ddbeebf407f4173818f1"
+  },
+  {
+    "path": "PFD_Assignment/appsettings.json",
+    "original_sha256": "b245548a463f4ee6e59754da382ed8f0f950394302d847e8b6b54789dd96d0b0",
+    "archive_sha256": "dd775872ee53c7949578cda28de89e82b4a6ce0efdfcde62dba3a372b12891c8"
+  },
+  {
+    "path": "PFD_Assignment/PFD_Assignment.csproj",
+    "original_sha256": "13b419fd2329adca59bfdbbd34fd9ac8a636bcac7d21ec6c6a6925530b3d343e",
+    "archive_sha256": "13b419fd2329adca59bfdbbd34fd9ac8a636bcac7d21ec6c6a6925530b3d343e"
+  },
+  {
+    "path": "PFD_Assignment/Program.cs",
+    "original_sha256": "19757ce7ae71094f8dac10cbd68f4048066db58a0e357c08caf594f117074584",
+    "archive_sha256": "19757ce7ae71094f8dac10cbd68f4048066db58a0e357c08caf594f117074584"
+  },
+  {
+    "path": "PFD_Assignment/Controllers/HomeController.cs",
+    "original_sha256": "b2a849139fa480f0e88dfedee3528b2b9b9fb1adcb55e4333deb99b9fd2a04c3",
+    "archive_sha256": "30e3c46d7e567097aaa7ca385947ef6b3179d2978a3564740ab0b69a7ee6eb75"
+  },
+  {
+    "path": "PFD_Assignment/DAL/FeatureDAL.cs",
+    "original_sha256": "5573de12860bfeeafd7607c06a94eae47867e9eea89cda5ad048318d1810ecec",
+    "archive_sha256": "5573de12860bfeeafd7607c06a94eae47867e9eea89cda5ad048318d1810ecec"
+  },
+  {
+    "path": "PFD_Assignment/DAL/FeedbackDAL.cs",
+    "original_sha256": "11809a6dac51f960f61f0cf86835d16b6e31374a823b857599cf6bec2ee05344",
+    "archive_sha256": "11809a6dac51f960f61f0cf86835d16b6e31374a823b857599cf6bec2ee05344"
+  },
+  {
+    "path": "PFD_Assignment/DAL/LoginDAL.cs",
+    "original_sha256": "fe5adc97139cb74634c25178b9b7207a2cb2c8af08a6706ed2d85b62b89780dc",
+    "archive_sha256": "fe5adc97139cb74634c25178b9b7207a2cb2c8af08a6706ed2d85b62b89780dc"
+  },
+  {
+    "path": "PFD_Assignment/DAL/TransactionDAL.cs",
+    "original_sha256": "dd0f0848512a5c9b81e97c2a9fa6c7407232cb493cfd41846bf61f94d95653ee",
+    "archive_sha256": "dd0f0848512a5c9b81e97c2a9fa6c7407232cb493cfd41846bf61f94d95653ee"
+  },
+  {
+    "path": "PFD_Assignment/Models/Account.cs",
+    "original_sha256": "5d68e6a4a525629f4cb9624257ad8d6bca0f638b7b2039b673dd268f293eb2fb",
+    "archive_sha256": "5d68e6a4a525629f4cb9624257ad8d6bca0f638b7b2039b673dd268f293eb2fb"
+  },
+  {
+    "path": "PFD_Assignment/Models/Customer.cs",
+    "original_sha256": "60fabb6bed7714d92e595722265752a307cb4725e37093d98c57b2627fab59bb",
+    "archive_sha256": "60fabb6bed7714d92e595722265752a307cb4725e37093d98c57b2627fab59bb"
+  },
+  {
+    "path": "PFD_Assignment/Models/ErrorViewModel.cs",
+    "original_sha256": "d3d64f1a7874b445faeff90cc1f2ad7063d3c7dcca968d459ad74f71d4968668",
+    "archive_sha256": "d3d64f1a7874b445faeff90cc1f2ad7063d3c7dcca968d459ad74f71d4968668"
+  },
+  {
+    "path": "PFD_Assignment/Models/FeatureUsage.cs",
+    "original_sha256": "2aaf55c821864d2dcffec400f1d9d2b41bd5f302fe46f9b0a7ba1a215f5540ea",
+    "archive_sha256": "2aaf55c821864d2dcffec400f1d9d2b41bd5f302fe46f9b0a7ba1a215f5540ea"
+  },
+  {
+    "path": "PFD_Assignment/Models/SessionExtensions.cs",
+    "original_sha256": "0a9d6ff84cc3f76f60c661dbe1d43e3ab977907b8cd7d816ca94b0efc82c9126",
+    "archive_sha256": "0a9d6ff84cc3f76f60c661dbe1d43e3ab977907b8cd7d816ca94b0efc82c9126"
+  },
+  {
+    "path": "PFD_Assignment/Views/_ViewImports.cshtml",
+    "original_sha256": "123d27315aa2ed482b60acc589bea4d4ff646ed8b81337d04e1668abdfd9f343",
+    "archive_sha256": "434fee52647116a57280760aae3579d80de3b7e6a6a543a8051bf91b7285ed19"
+  },
+  {
+    "path": "PFD_Assignment/Views/_ViewStart.cshtml",
+    "original_sha256": "47e02b4da20d198892b7b1b00b12944068797c438ef2e82d20ff70b4d56bad39",
+    "archive_sha256": "1b8496d15708e5d6554b607ecca4e226d9797ffdf6dc97ff10c137ae5f5fccf4"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/favicon.ico",
+    "original_sha256": "cb1aa38ecbd8bbc64ad064f387e8a7fd0f563c4417ff7646102d78d38872d538",
+    "archive_sha256": "cb1aa38ecbd8bbc64ad064f387e8a7fd0f563c4417ff7646102d78d38872d538"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/AccountBalance.cshtml",
+    "original_sha256": "021ff9aea159b5c3768aee25a0018e7523e1a57832f3b7edf4372a2da04dc57f",
+    "archive_sha256": "c4a15645e6315159310e9b892fa7cbfd1cbae9716d7c05cc9c5462c54fee717b"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/AccountServices1.cshtml",
+    "original_sha256": "55743ba6803e51f707af90ac4a1e57fec0a9fe9c25c3db01701ccb45dfe32a00",
+    "archive_sha256": "779b41ab1b571e694e60699c3bdd6a45d8c5905c7c45f051373dd4737347ae62"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/AmountWithdraw.cshtml",
+    "original_sha256": "2104e3035745439eec188192acf2169e821bb8e881a5ebd716af1d570b6c792f",
+    "archive_sha256": "8cb600490854fe7dec937e6a0ae382a53b80f96c10d53858e66f939944c04255"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/CardServices1.cshtml",
+    "original_sha256": "0e1a11daaa614248a1d343d0acd6452d815cc4aff9c2cfad7af819f807a2cb31",
+    "archive_sha256": "7d81063fb70865a6d3bb3a0682abae3617a1bc8486751198f5f7c443d4908e40"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/FaceAuthentication.cshtml",
+    "original_sha256": "b430df4bcd38cfdce7c98552b125ee7f1e278bb6d0ab3375fc294e40df335f0c",
+    "archive_sha256": "499cc324ba06d907d479f0492767d55d504e1145cb09b7c05056773a98532d73"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/FeedbackCategorySelection.cshtml",
+    "original_sha256": "dcb68a02559853b129b3e9e4da1528219baf92b3800521fc9158b5e0664f4094",
+    "archive_sha256": "78bb310e3f1a9cfc634641a734dad60cc9f546a7677f17196f1038c5cbeb22df"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/FeedbackStarSelection.cshtml",
+    "original_sha256": "073328cad72a57c91ad895d9cd4c7d3d588d29e0ea0420447228555b727307e2",
+    "archive_sha256": "a79c5ab9c3aacab16486ab0184123ef193f495116c23b99601a78ad9f669cf10"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/FingerprintAuthentication.cshtml",
+    "original_sha256": "a6e3c647898d145d12969c0ef540368a485a935d72d1bb796af925d38b74f566",
+    "archive_sha256": "e6f77fee4ee27789d9c4c2cac987db236013d029b21ed10d294983ffc3571e97"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/HomepageCashWithdraw.cshtml",
+    "original_sha256": "8e508b1e1fe5b2b67d159d20af584cff383825153546d6334d1a7f75102eb387",
+    "archive_sha256": "8972d2fc44db96f95a235b4ef6d7515c0d5da03198a1712225f752c797cd420b"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/OtherCashAmount.cshtml",
+    "original_sha256": "2bd8b1887579ffcd6fd325e57ddca51938e1052441ae287b40f0f495e8b514e3",
+    "archive_sha256": "a23a7efb573b0678898d6836a0ded6df1d3e52400bb36e1b6a383eaab33cf0ee"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/OtherOCBCAccount.cshtml",
+    "original_sha256": "727e352d26195907132b56a06a92100c50563c082be3d947f73d06b2e462b16b",
+    "archive_sha256": "e10c4c3042007c431dc1103c6ec331e3365dd389d06b982aad3916e1ffb65a64"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/OtherServices1.cshtml",
+    "original_sha256": "7ce9fec91ae8d069949ad36a5c15af9a51c03831761c57dd4d05f4fdea2128ac",
+    "archive_sha256": "65951573c10162b7efb7afe9900bda90c380e1b807881f48d5a963f98c013180"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/PasswordPIN.cshtml",
+    "original_sha256": "c00986ca454540eaca9c72e3320914f87994b209b68f472fcd58171a6f76b1e8",
+    "archive_sha256": "13cad0440e8255b1f4402756a21f7dde511ded08669052b430e8974358980f56"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/QRCodeFeedback.cshtml",
+    "original_sha256": "cc0fafb9e6fb1aba1fcf26d3b2a886dd2af6ccd5c30454c1d77b531865c25b8d",
+    "archive_sha256": "26cf0380e46e97f1724161544952de9f82d872388ed183decfeb6ea95daab1d4"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/Receipt.cshtml",
+    "original_sha256": "723ad47ef1912b6b4b86e0213ba9c1f069b174946494cb097c134c1562464b57",
+    "archive_sha256": "6e28be05d51823136e83a6cbfaa5c9af93780373129ee7c23f06cc88619895c8"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/SelectLanguages.cshtml",
+    "original_sha256": "b917a755d5a985d1e998a8aa2f4d2742fa32e8c11d7a5d6c398c05925e21d19a",
+    "archive_sha256": "e509e4f4d7cf46b9d296949deba834b859bc528fc33f210ab62d295b3d66a559"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/SelectLoginMethod.cshtml",
+    "original_sha256": "bea062f32119a445cf99057b0ccebe1a1ce48f38bdfc7ce4d0fb8892566f8680",
+    "archive_sha256": "b8dd3f5289057f33c36c86c66c8781dce8ac7b8b13d55863e1241002d8ce4828"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/Thankyou.cshtml",
+    "original_sha256": "78e9ee443ca8ccd409a1103ee7a67a003931783fdd2faeca22038a2d388544f0",
+    "archive_sha256": "ad003308d7ff68dfcb0784d5bf966614bfe587f0643f1e94c28a2926b526bb86"
+  },
+  {
+    "path": "PFD_Assignment/Views/Home/TransferFunds.cshtml",
+    "original_sha256": "7ec687bf6983170e3d818664bccca92144c74e11a6de75d0f4c819d953362076",
+    "archive_sha256": "213ec9748bb5a544314ad164fa19da12f3ba84a12e99ba1adcc6bc0bdf2640b4"
+  },
+  {
+    "path": "PFD_Assignment/Views/Shared/Error.cshtml",
+    "original_sha256": "5dbf98b6b9394ad78206edce40cab1d7a238aa69cfefa41bab0ebc6aa22488aa",
+    "archive_sha256": "6dabec8518733a106c67494b6cc5f307b67c8c47c404b1ab90191773ef684101"
+  },
+  {
+    "path": "PFD_Assignment/Views/Shared/_Layout.cshtml",
+    "original_sha256": "ac34f3c754f90d2072955073110693cde29a3c0e60933f3167504442ffedb64a",
+    "archive_sha256": "d5293451e3637538d6a28e65a8d186da6082324ed226b529420f4b14b7dedaf8"
+  },
+  {
+    "path": "PFD_Assignment/Views/Shared/_Layout.cshtml.css",
+    "original_sha256": "f739827eca8aad14239089c244d8a52ceeaeeaebd5b33e29f7ee40c8868ffd91",
+    "archive_sha256": "f739827eca8aad14239089c244d8a52ceeaeeaebd5b33e29f7ee40c8868ffd91"
+  },
+  {
+    "path": "PFD_Assignment/Views/Shared/_ValidationScriptsPartial.cshtml",
+    "original_sha256": "9ef82fee87759dfecf2638af263085e669aa14a40c723d556d790d65a525ba11",
+    "archive_sha256": "23cacfff7add07bfad292fc826f52934b8141006b72547a9a26e4754e74bafe6"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/css/site.css",
+    "original_sha256": "4c055126ac6c223c6c8a1db7508e9ea07cdd7d9e7acf82b50f4ce7da4f612cf3",
+    "archive_sha256": "4c055126ac6c223c6c8a1db7508e9ea07cdd7d9e7acf82b50f4ce7da4f612cf3"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/js/face-min.js",
+    "original_sha256": "4410b963c72749133fd45beb2117c4b03f006392824278631bfd4358d5f20da1",
+    "archive_sha256": "4410b963c72749133fd45beb2117c4b03f006392824278631bfd4358d5f20da1"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/js/guessLanguage.js",
+    "original_sha256": "ca7d2bc8470bcb6943742ada1b8d6de8e4630482840af3dbed45e0b0c8369a32",
+    "archive_sha256": "ca7d2bc8470bcb6943742ada1b8d6de8e4630482840af3dbed45e0b0c8369a32"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/js/site.js",
+    "original_sha256": "e2ad63c0585a3da660afc580512aeec7a840ba1d170e0f643d2df1215ab7e88d",
+    "archive_sha256": "e2ad63c0585a3da660afc580512aeec7a840ba1d170e0f643d2df1215ab7e88d"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/js/tracking-min.js",
+    "original_sha256": "b0561f915f4e969568275ae74c9cf3557eae1b0cfb1c477edf2597c6f61abe03",
+    "archive_sha256": "b0561f915f4e969568275ae74c9cf3557eae1b0cfb1c477edf2597c6f61abe03"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/js/_languageData.js",
+    "original_sha256": "16d3065201eab374a6898a64c7f19697f16326987ae1498539e9fc0c7b83f05f",
+    "archive_sha256": "16d3065201eab374a6898a64c7f19697f16326987ae1498539e9fc0c7b83f05f"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/LICENSE",
+    "original_sha256": "647ea903a052c7a7ee1d9bdd68aa61d43c1427e55262294888442ef22967bea9",
+    "archive_sha256": "647ea903a052c7a7ee1d9bdd68aa61d43c1427e55262294888442ef22967bea9"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery/LICENSE.txt",
+    "original_sha256": "5ad2a50f27bfa95ebc200d96d6d1c54f25f273f1e342f40a06920ad4212e9453",
+    "archive_sha256": "5ad2a50f27bfa95ebc200d96d6d1c54f25f273f1e342f40a06920ad4212e9453"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery-validation/LICENSE.md",
+    "original_sha256": "81e1c4930fd618f75a1d0311ab91ee358f6c9e588dcd4ff2d8e5bcc9c9e1197c",
+    "archive_sha256": "81e1c4930fd618f75a1d0311ab91ee358f6c9e588dcd4ff2d8e5bcc9c9e1197c"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+    "original_sha256": "a9b4b4daf30767174b358294b4b3d261a4875e3d7f6701f57eff5fdd7018d0b5",
+    "archive_sha256": "a9b4b4daf30767174b358294b4b3d261a4875e3d7f6701f57eff5fdd7018d0b5"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+    "original_sha256": "06d566549b325089dc21ab5b950b00948d3a6d2f296f6c9905cac339aeec9c9c",
+    "archive_sha256": "06d566549b325089dc21ab5b950b00948d3a6d2f296f6c9905cac339aeec9c9c"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+    "original_sha256": "68173f9ff9cef5eb2fab47bcd06e7b94460ba27bc4e5d28a520a28cda8957cb3",
+    "archive_sha256": "68173f9ff9cef5eb2fab47bcd06e7b94460ba27bc4e5d28a520a28cda8957cb3"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+    "original_sha256": "3f84a48ba46bb06e27c4a7cfa9a568c913287ac97d53302b99f4fee1f2ea2876",
+    "archive_sha256": "3f84a48ba46bb06e27c4a7cfa9a568c913287ac97d53302b99f4fee1f2ea2876"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+    "original_sha256": "40ef1c31b5642e292d517d5c1de5d25127b99d7317520c8bf5c8f09cccb13ea7",
+    "archive_sha256": "40ef1c31b5642e292d517d5c1de5d25127b99d7317520c8bf5c8f09cccb13ea7"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+    "original_sha256": "f7a6b2214127a4aafb9f9048b052b9bc9dea5cc5c582f465f7f081707b3afd3b",
+    "archive_sha256": "f7a6b2214127a4aafb9f9048b052b9bc9dea5cc5c582f465f7f081707b3afd3b"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+    "original_sha256": "ef60bfa83086bbe3b059e540d376dff4a7b44fca08a330ae6f495f26487386f1",
+    "archive_sha256": "ef60bfa83086bbe3b059e540d376dff4a7b44fca08a330ae6f495f26487386f1"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+    "original_sha256": "fae8104445243f85a7a75557d8bda5bf0d10da680a62f60066bd5cda8afecac3",
+    "archive_sha256": "fae8104445243f85a7a75557d8bda5bf0d10da680a62f60066bd5cda8afecac3"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+    "original_sha256": "aaf037f4e32512ce778da7b0a9516613c0d042b8a8e3b6d9b654ecf96bba53c8",
+    "archive_sha256": "aaf037f4e32512ce778da7b0a9516613c0d042b8a8e3b6d9b654ecf96bba53c8"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+    "original_sha256": "f5e5f676910b5ef62cfba8a5d8c1f07f938e3d53998f154ad5bd465a02f40749",
+    "archive_sha256": "f5e5f676910b5ef62cfba8a5d8c1f07f938e3d53998f154ad5bd465a02f40749"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+    "original_sha256": "3434998c888c3d12283bbff0efe8c779ff2b7ad3f8ae241af0f323e015511a89",
+    "archive_sha256": "3434998c888c3d12283bbff0efe8c779ff2b7ad3f8ae241af0f323e015511a89"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+    "original_sha256": "26d97ae442020f876ce9d4196f1d689e0bcc5e3f03d76ec70a0e574415d7606c",
+    "archive_sha256": "26d97ae442020f876ce9d4196f1d689e0bcc5e3f03d76ec70a0e574415d7606c"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+    "original_sha256": "1591b42b16cda884d48b8418ed0bcf1514bf4dc727b4c7c559f49374737fa70b",
+    "archive_sha256": "1591b42b16cda884d48b8418ed0bcf1514bf4dc727b4c7c559f49374737fa70b"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+    "original_sha256": "df9f4230f008086915fb3bdee00e0724c85addbc2a4c54e397e402d4a24ae434",
+    "archive_sha256": "df9f4230f008086915fb3bdee00e0724c85addbc2a4c54e397e402d4a24ae434"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+    "original_sha256": "d816d1b04ffe7335f5b9f9833c6a67122782f6ee88de6e4128d0d25f5a1bde58",
+    "archive_sha256": "d816d1b04ffe7335f5b9f9833c6a67122782f6ee88de6e4128d0d25f5a1bde58"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+    "original_sha256": "1b43d00832fb1133baac84d19412070cabef4ae2459f9a7a87e5a66cf5f9c6be",
+    "archive_sha256": "1b43d00832fb1133baac84d19412070cabef4ae2459f9a7a87e5a66cf5f9c6be"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+    "original_sha256": "fc47561cdeade5760fa650bcf2f8b119fac1bdf1228b5f6402cb1bfb4601554f",
+    "archive_sha256": "fc47561cdeade5760fa650bcf2f8b119fac1bdf1228b5f6402cb1bfb4601554f"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+    "original_sha256": "0671e6109a60a2bd67d14bb035d5c6d95847755d6bf4c89bbaa0551ec829f5af",
+    "archive_sha256": "0671e6109a60a2bd67d14bb035d5c6d95847755d6bf4c89bbaa0551ec829f5af"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+    "original_sha256": "18c0e4e6903974590e8a69010167848d867eee58073d2d236259faa7f589558b",
+    "archive_sha256": "18c0e4e6903974590e8a69010167848d867eee58073d2d236259faa7f589558b"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+    "original_sha256": "99c54e1d1abb16c59ac9c49f6e81ac4e9cee419ddc20e47f1831d8c4beaad988",
+    "archive_sha256": "99c54e1d1abb16c59ac9c49f6e81ac4e9cee419ddc20e47f1831d8c4beaad988"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+    "original_sha256": "e1622a3e87ffbeb5d83bf8de2787c33902946162307bae15dddfbdfea363bb6d",
+    "archive_sha256": "e1622a3e87ffbeb5d83bf8de2787c33902946162307bae15dddfbdfea363bb6d"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+    "original_sha256": "7a4a05e1836ae0e514e01a19e851b62d3283ebc2c9bd6e3d6ab360ca41ce65f3",
+    "archive_sha256": "7a4a05e1836ae0e514e01a19e851b62d3283ebc2c9bd6e3d6ab360ca41ce65f3"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+    "original_sha256": "a75768a78b2579f6612f8cc6da96bafb61d4ace63551402b1895e67adf0c77d7",
+    "archive_sha256": "a75768a78b2579f6612f8cc6da96bafb61d4ace63551402b1895e67adf0c77d7"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+    "original_sha256": "d4dd5a3d6eac4d87b11df2427034b88849693dd59a84fd85afe526e7ac343e32",
+    "archive_sha256": "d4dd5a3d6eac4d87b11df2427034b88849693dd59a84fd85afe526e7ac343e32"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+    "original_sha256": "a6e0e02b0be5140a2b77d47c1bca1ff4fd825582095054a821b8c32c4b0a107d",
+    "archive_sha256": "a6e0e02b0be5140a2b77d47c1bca1ff4fd825582095054a821b8c32c4b0a107d"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+    "original_sha256": "c2c794b25eee8a95333d873f0c130c4cc140ee1053731a70dbd44a3b12f35d27",
+    "archive_sha256": "c2c794b25eee8a95333d873f0c130c4cc140ee1053731a70dbd44a3b12f35d27"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+    "original_sha256": "d3691ae329a8139c8479c2d49dc2c6dff4a8b9340c9d324e92d5fef7a3edffcf",
+    "archive_sha256": "d3691ae329a8139c8479c2d49dc2c6dff4a8b9340c9d324e92d5fef7a3edffcf"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+    "original_sha256": "64cbe6583494e33635676f444069b932e6dfcff63117886245e1aac7ce28e2d0",
+    "archive_sha256": "64cbe6583494e33635676f444069b932e6dfcff63117886245e1aac7ce28e2d0"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+    "original_sha256": "0d1bd6af481a9e08f9ff94370d19fab6dce97160f39773a91e80300333434794",
+    "archive_sha256": "0d1bd6af481a9e08f9ff94370d19fab6dce97160f39773a91e80300333434794"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+    "original_sha256": "4a221530681185d5e32924c875d5fb9a1f486ce5d573041673bfe9e274ba0ffd",
+    "archive_sha256": "4a221530681185d5e32924c875d5fb9a1f486ce5d573041673bfe9e274ba0ffd"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+    "original_sha256": "801c20dad980d028b6bb9e20305d63342564bbabf39daae42d2e83efa86d34d4",
+    "archive_sha256": "801c20dad980d028b6bb9e20305d63342564bbabf39daae42d2e83efa86d34d4"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+    "original_sha256": "840d6e05800f80aabb395a1717bb2a53d36dca5c8fd0aec0267d1ae3341c4db8",
+    "archive_sha256": "840d6e05800f80aabb395a1717bb2a53d36dca5c8fd0aec0267d1ae3341c4db8"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+    "original_sha256": "545be68bf652c101668d2e8faf2f41f335de67f180d7af135cbcb290384d3191",
+    "archive_sha256": "545be68bf652c101668d2e8faf2f41f335de67f180d7af135cbcb290384d3191"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+    "original_sha256": "ba428be480d2c8da17172a74c24817781a41213c8cec9b0213a0e9f7a1f5bc8f",
+    "archive_sha256": "ba428be480d2c8da17172a74c24817781a41213c8cec9b0213a0e9f7a1f5bc8f"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+    "original_sha256": "8fbbaa2b95684d3e2b50732bf75d50114e526bde25477ba1f44dbc5c1325ceb3",
+    "archive_sha256": "8fbbaa2b95684d3e2b50732bf75d50114e526bde25477ba1f44dbc5c1325ceb3"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+    "original_sha256": "97f87209c1d7746c16e9c3b4c5fa1bb80319937361f1db11756c1d69e4a7f6aa",
+    "archive_sha256": "97f87209c1d7746c16e9c3b4c5fa1bb80319937361f1db11756c1d69e4a7f6aa"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+    "original_sha256": "80ee2e8717c6b8ad0e3634651eec1f82119f1174f96b39b5a075a74c41464df9",
+    "archive_sha256": "80ee2e8717c6b8ad0e3634651eec1f82119f1174f96b39b5a075a74c41464df9"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+    "original_sha256": "ac09d69d59f30a1c40022f0d4be225af5984ed28fe768f97fc3ab28a536cce73",
+    "archive_sha256": "ac09d69d59f30a1c40022f0d4be225af5984ed28fe768f97fc3ab28a536cce73"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+    "original_sha256": "c48041c433ef5a193cfc975a1446687a369d7da28551f645c114b50f8264baba",
+    "archive_sha256": "c48041c433ef5a193cfc975a1446687a369d7da28551f645c114b50f8264baba"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+    "original_sha256": "4b248872d5b9210b2af09a181ab3495386629476a2789aeee4fd3ef2f4dc7c30",
+    "archive_sha256": "4b248872d5b9210b2af09a181ab3495386629476a2789aeee4fd3ef2f4dc7c30"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+    "original_sha256": "0a5942fec6cbbf22c4f5c4258e61519484dfa9d6519c1bf6cac5f92c9b65fdd8",
+    "archive_sha256": "0a5942fec6cbbf22c4f5c4258e61519484dfa9d6519c1bf6cac5f92c9b65fdd8"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+    "original_sha256": "855bf4209cbcb08bf5b8895540e1e76453401a9ae62df0d5fb1d1a9d83e6c585",
+    "archive_sha256": "855bf4209cbcb08bf5b8895540e1e76453401a9ae62df0d5fb1d1a9d83e6c585"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+    "original_sha256": "b0fab359c492f5a45ada0a564d5350cde99a8e7f21ac58e05cf8f78fd408b50a",
+    "archive_sha256": "b0fab359c492f5a45ada0a564d5350cde99a8e7f21ac58e05cf8f78fd408b50a"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+    "original_sha256": "255f332cec6a5f710d2f08905fc9428836374ef4336de89b0c0b1d62d6a5678c",
+    "archive_sha256": "255f332cec6a5f710d2f08905fc9428836374ef4336de89b0c0b1d62d6a5678c"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+    "original_sha256": "424979999519eb869805a39144c3fd8df0f5933f09e85c2257633ce890c991d4",
+    "archive_sha256": "424979999519eb869805a39144c3fd8df0f5933f09e85c2257633ce890c991d4"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+    "original_sha256": "b803181c0425687ab56ee28bc2b93b145e2ac6f70b5a7b52dbf0e974ab9c7e65",
+    "archive_sha256": "b803181c0425687ab56ee28bc2b93b145e2ac6f70b5a7b52dbf0e974ab9c7e65"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+    "original_sha256": "ba2fc5408fb2d0852c63c3db8bcd1bf2cdc67842fe3ecbdd68b4ce3686e99fcf",
+    "archive_sha256": "ba2fc5408fb2d0852c63c3db8bcd1bf2cdc67842fe3ecbdd68b4ce3686e99fcf"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery/dist/jquery.js",
+    "original_sha256": "a28d76c983b06d87eb2c6d6deaff7e1d4faf32f12794a92bd5e21c754c06ed9b",
+    "archive_sha256": "a28d76c983b06d87eb2c6d6deaff7e1d4faf32f12794a92bd5e21c754c06ed9b"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery/dist/jquery.min.js",
+    "original_sha256": "f36844906ad2309877aae3121b87fb15b9e09803cb4c333adc7e1e35ac92e14b",
+    "archive_sha256": "f36844906ad2309877aae3121b87fb15b9e09803cb4c333adc7e1e35ac92e14b"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery/dist/jquery.min.map",
+    "original_sha256": "3d507dec178f4392440faa9253b12f4ae9f98ac785e458a708ab6ab2fe57f6e0",
+    "archive_sha256": "3d507dec178f4392440faa9253b12f4ae9f98ac785e458a708ab6ab2fe57f6e0"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+    "original_sha256": "a8b0e97fd52b9aced1eab9c04ab8c7cf7f167507cebd23a64e02c37f3412cc84",
+    "archive_sha256": "a8b0e97fd52b9aced1eab9c04ab8c7cf7f167507cebd23a64e02c37f3412cc84"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+    "original_sha256": "d85fd3e9d7284ae99cb80fdf714e16dfa56948a3edab89d07ffd3fbcd16c0bec",
+    "archive_sha256": "d85fd3e9d7284ae99cb80fdf714e16dfa56948a3edab89d07ffd3fbcd16c0bec"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+    "original_sha256": "dbb82cd389f278db8bf7373f18b40b8dd6d9aa1346bc7fb12188276153c86b01",
+    "archive_sha256": "dbb82cd389f278db8bf7373f18b40b8dd6d9aa1346bc7fb12188276153c86b01"
+  },
+  {
+    "path": "PFD_Assignment/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+    "original_sha256": "788b4b14ec9f43877f386cc49c67218b664c545f048468334b493b7d238f89f4",
+    "archive_sha256": "788b4b14ec9f43877f386cc49c67218b664c545f048468334b493b7d238f89f4"
+  }
+]
